@@ -548,7 +548,8 @@ span.has-different-icon{
 	margin-top:20px;
 }
 
-.button-holder a{margin:0 5px;}
+.button-holder a,
+.button-holder input{margin:0 5px;}
 
 a.remove{
 	position: absolute;
@@ -609,9 +610,27 @@ a.remove{
 	border-color: #1a1b20;
 }
 
+.bttn.site{
+	color:#ffffff;
+	background-color: #490b34;
+	border-color: #490b34;
+}
+
+.bttn.site:hover,
+.bttn.site:focus{
+	background-color: #380928;
+	border-color: #380928;
+}
+
 .bttn.has-icon{
 	background-position: 12px center;
     padding: 10px 15px 10px 37px;
+}
+
+.bttn.large{
+	min-width: 275px;
+	font-size: 17px;
+	padding:18px 25px;
 }
 
 .bttn:active,
@@ -689,14 +708,14 @@ input[type="submit"]:active{
 .full-height{height: 100%;}
 
 .frame{
-	max-width: 1620px;
+	max-width: 1110px;
 	padding: 0 10px;
 	margin:auto;
 }
 
-.frame.half{max-width: 1080px;}
-.frame.small{max-width: 522px;}
-.frame.smallest{max-width: 322px;}
+.frame.medium{max-width: 980px;}
+.frame.small{max-width: 740px;}
+.frame.smallest{max-width: 520px;}
 
 .clearFix{
 	display:block;
@@ -727,6 +746,10 @@ input[type="submit"]:active{
 ***** Common Styles *****
 *************************/
 
+
+.inline-display{display: inline;}
+.inline-block-display{display: inline-block;}
+.block-display{display: block;}
 
 .center-aligned{text-align: center;}
 .left-aligned{text-align: left;}
@@ -785,6 +808,10 @@ input[type="submit"]:active{
 .font-size-large{font-size: 17px;}
 .font-size-medium{font-size: 15px;}
 .font-size-small{font-size: 13px;}
+
+.font-type-default{font-family: 'Roboto';}
+.font-type-medium{font-family: 'Roboto-Medium';}
+.font-type-large{font-family: 'Roboto-Large';}
 
 .site-color{color:#6e2878 !important;}
 .blue-color{color:#3958bc !important;}
