@@ -289,13 +289,13 @@ input[type="reset"]:focus{padding: 0;}
 
 /* -- Validation -- */
 
-.error{border:1px solid #f6d4d4 !important;}
+.error{border:1px solid #c35050 !important;}
 
 label.error{
 	font-family: 'Roboto';
-	font-size: 13px;
-	color:#df4e4e;
-	padding-top:4px;
+	font-size: 12px;
+	color:#c35050;
+	padding-top:8px;
 	background: none !important;
 	border:none !important;
 }
@@ -437,7 +437,6 @@ span.has-different-icon{
 .radio-holder{
 	position: relative;
 	width: 100%;
-	overflow: hidden;
 }
 
 .checkbox-holder input[type="checkbox"],
