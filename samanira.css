@@ -1266,16 +1266,17 @@ span.time{
 
 @media only screen and (max-width:1050px){
 
-	body{font-size: 14px;}
-	h1{font-size:30px;}
-	h2{font-size:25px;}
-	h3{font-size:23px;}
-	h4{font-size:19px;}
-	h5{font-size:17px;}
-	h6{font-size:14px;}
+	body{font-size: 11px;}
+	h1{font-size:35px;}
+	h2{font-size:30px;}
+	h3{font-size:25px;}
+	h4{font-size:20px;}
+	h5{font-size:27px;}
+	h6{font-size:13px;}
 
 	.cl-3{width: 100%;}
 	.cl-4{width: 100%;}
+	.cl-6{width: 100%;}
 	.cl-9{width: 100%;}
 
 	.cl-3.responsive{width: 50%;}
@@ -1371,6 +1372,29 @@ span.time{
 	.has-4-column .section-box{width: 49%;}
 	.has-4-column .section-box:nth-child(4n+1){margin-left: 2%;}
 	.has-4-column .section-box:nth-child(2n+1){margin-left: 0;}
+
+	.has-padding{padding:20px;}
+	.has-top-padding{padding-top:20px;}
+	.has-bottom-padding{padding-bottom:20px;}
+	.has-left-padding{padding-left:20px;}
+	.has-right-padding{padding-right:20px;}
+
+	.has-medium-padding{padding:15px;}
+	.has-medium-top-padding{padding-top:15px;}
+	.has-medium-bottom-padding{padding-bottom:15px;}
+	.has-medium-left-padding{padding-left:15px;}
+	.has-medium-right-padding{padding-right:15px;}
+
+	.has-margin{margin:20px;}
+	.has-top-margin{margin-top:20px;}
+	.has-bottom-margin{margin-bottom:20px;}
+	.has-left-margin{margin-left:20px;}
+	.has-right-margin{margin-right:20px;}
+
+	.has-medium-top-margin{margin-top:15px;}
+	.has-medium-bottom-margin{margin-bottom:15px;}
+	.has-medium-left-margin{margin-left:15px;}
+	.has-medium-right-margin{margin-right:15px;}
 
 	.breadcrumb.has-button{padding-right: 0;}
 
