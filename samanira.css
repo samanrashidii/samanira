@@ -15,7 +15,7 @@ SSSS  S   A  M      M  A   A  N    NN  II  R  R  A   A
 
 
 /******************
-*** MAIN STYLES ***
+*** _MAIN STYLES ***
 *******************/
 
 
@@ -105,7 +105,7 @@ table{
 
 
 /******************
-*** FORM STYLES ***
+*** _FORM STYLES ***
 *******************/
 
 
@@ -277,7 +277,7 @@ input.datepicker{cursor: pointer;}
 
 input.not-editable:focus{padding-left: 15px;}
 
-/* -- Actions -- */
+/* -- _Actions -- */
 
 input:not([type="submit"]):focus,
 textarea:focus{border-color: #6e2878;}
@@ -287,7 +287,7 @@ input[type="submit"]:focus{background: #491950;}
 
 input[type="reset"]:focus{padding: 0;}
 
-/* -- Validation -- */
+/* -- _Validation -- */
 
 .error{border:1px solid #c35050 !important;}
 
@@ -300,7 +300,7 @@ label.error{
 	border:none !important;
 }
 
-/* -- Classes in Form -- */
+/* -- _Classes in Form -- */
 
 h6.has-icon{padding-left: 25px;}
 
@@ -309,7 +309,7 @@ span.has-different-icon{
 	background-position: left center;
 }
 
-/* Upload Single Button */
+/* _Upload Single Button */
 
 .upload-bttn{
 	position: absolute;
@@ -342,7 +342,7 @@ span.has-different-icon{
 
 .upload-bttn label:hover{background: #491950;}
 
-/* Upload Image Box */
+/* _Upload Image Box */
 
 .upload-image{
 	display: table;
@@ -394,7 +394,7 @@ span.has-different-icon{
 .upload-image.image-added a.remove,
 .upload-image.image-added img{visibility: visible;}
 
-/* Inline upload with File Name */
+/* _Inline Upload with File Name */
 
 .inline-upload{
 	position: relative;
@@ -526,7 +526,7 @@ span.has-different-icon{
 
 
 /******************
-***** Buttons *****
+***** _Buttons *****
 *******************/
 
 
@@ -680,9 +680,9 @@ input[type="submit"]:active{
 .nav-toggle.active span::after{width: 30px;}
 
 
-/***********************
-***** Layout Style *****
-************************/
+/**********************
+******* _Frames *******
+***********************/
 
 
 #wrapper{
@@ -731,7 +731,7 @@ input[type="submit"]:active{
 
 
 /************************
-***** Common Styles *****
+******** _Common ********
 *************************/
 
 
@@ -812,11 +812,11 @@ input[type="submit"]:active{
 
 
 /*************************
-***** Custom Classes *****
+***** _Custom Classes *****
 **************************/
 
 
-/* -- Overlay -- */
+/* -- _Overlay -- */
 
 .overlay{
 	position: fixed;
@@ -859,7 +859,7 @@ a.close{
   background: url('../images/assets/close.png') no-repeat center;
 }
 
-/* -- Tag -- */
+/* -- _Tag -- */
 
 .tag{
 	display: inline-block;
@@ -893,7 +893,7 @@ span.time{
 	font-size: 12px;
 }
 
-/* -- Post Stats -- */
+/* -- _Post Stats -- */
 
 .post-stats{
 	width: 100%;
@@ -902,7 +902,7 @@ span.time{
 
 .post-stats a{color:#3958bc;}
 
-/* -- Message Popup -- */
+/* -- _Message -- */
 
 .message{
 	position: fixed;
@@ -929,7 +929,7 @@ span.time{
 .message.success{background: url('../images/icons/notification.png') no-repeat left center #56cd7d;}
 .message.fail{background: url('../images/icons/error.png') no-repeat left center #df6b6b;}
 
-/* -- Filter Fields -- */
+/* -- _Filter -- */
 
 .filter{
 	width: 100%;
@@ -968,7 +968,7 @@ span.time{
 	padding-top:15px;
 }
 
-/* -- Star Rating -- */
+/* -- _Star Rating -- */
 
 .star-box{
 	width: 100%;
@@ -994,7 +994,7 @@ span.time{
 	margin-left: 7px;
 }
 
-/* -- Pagination -- */
+/* -- _Pagination -- */
 
 .pagination{
 	width: 100%;
@@ -1046,7 +1046,7 @@ span.time{
 	padding:7px 15px 0 15px;
 }
 
-/* -- Breadcrumb -- */
+/* -- _Breadcrumb -- */
 
 .breadcrumb{
 	position: relative;
@@ -1084,7 +1084,7 @@ span.time{
 .breadcrumb ul li a{color:#353641;}
 .breadcrumb ul li a:hover{color:#6e2471;}
 
-/* -- Google Map -- */
+/* -- _Google Map -- */
 
 #map_canvas{
   width:100%;
@@ -1099,7 +1099,7 @@ span.time{
 
 
 /**************************
-********* Tables **********
+********* _Tables **********
 ***************************/
 
 
@@ -1154,9 +1154,9 @@ span.time{
 .column-50{width: 50%;}
 
 
-/**************************
-********* Box Layout **********
-***************************/
+/******************************
+********* _Box Layout *********
+*******************************/
 
 
 .content{padding:30px 20px;}
@@ -1248,7 +1248,7 @@ span.time{
 
 
 /******************************
-********* Responsive **********
+********* _Responsive **********
 *******************************/
 
 
