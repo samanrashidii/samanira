@@ -212,7 +212,6 @@ textarea{
 label{
 	display: inline-block;
 	vertical-align: middle;
-	font-family: 'Roboto-Medium';
 	font-size: 15px;
 	color:#353641;
 	padding-top:12px;
@@ -292,7 +291,6 @@ input[type="reset"]:focus{padding: 0;}
 .error{border:1px solid #c35050 !important;}
 
 label.error{
-	font-family: 'Roboto';
 	font-size: 12px;
 	color:#c35050;
 	padding-top:8px;
@@ -328,7 +326,6 @@ span.has-different-icon{
 .upload-bttn label{
 	position: relative;
 	display: block;
-	font-family: 'Roboto';
 	font-size: 14px;
 	color:#ffffff;
 	padding:0;
@@ -546,7 +543,7 @@ a.remove{
     display: block;
     width: 28px;
     height: 28px;
-    background: url('../images/assets/remove-2.png') no-repeat center center #ffffff;
+    background: url('../images/assets/remove.png') no-repeat center center #ffffff;
     border-radius: 2px;
     z-index: 6;
 }
@@ -627,14 +624,6 @@ input[type="submit"]:active{
 	-moz-transform:translateY(2px);
 	transform:translateY(2px);
 }
-
-.has-arrow-bttn{
-	display: inline-block;
-	padding-right: 30px;
-	background: url('../images/assets/right-arrow-blue.png') no-repeat right 9px;
-}
-
-.has-arrow-bttn:hover{color:#04bbcb;}
 
 .switch{
 	display: block;

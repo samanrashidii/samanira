@@ -1,0 +1,45 @@
+@font-face{
+	font-family:'Roboto';
+	src: url('../fonts/Roboto-Light.eot');
+	src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Roboto-Light.ttf') format('truetype'),
+		 url('../fonts/Roboto-Light.otf') format('otf'),
+		 url('../fonts/Roboto-Light.svg') format('svg'),
+		 url('../fonts/Roboto-Light.woff') format('woff');
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face{
+	font-family:'Roboto-Medium';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Roboto-Regular.ttf') format('truetype'),
+		 url('../fonts/Roboto-Regular.otf') format('otf'),
+		 url('../fonts/Roboto-Regular.svg') format('svg'),
+		 url('../fonts/Roboto-Regular.woff') format('woff');
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face{
+	font-family:'Iran';
+	src: url('../fonts/Iran.eot');
+	src: url('../fonts/Iran.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Iran.ttf') format('truetype'),
+		 url('../fonts/Iran.woff2') format('woff2'),
+		 url('../fonts/Iran.woff') format('woff');
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face{
+	font-family:'Iran-Medium';
+	src: url('../fonts/Iran-Medium.eot');
+	src: url('../fonts/Iran-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Iran-Medium.ttf') format('truetype'),
+		 url('../fonts/Iran-Medium.woff2') format('woff2'),
+		 url('../fonts/Iran-Medium.woff') format('woff');
+	font-weight: normal;
+  	font-style: normal;
+}
