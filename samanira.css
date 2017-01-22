@@ -302,17 +302,6 @@ label.error{
 
 /* -- Classes in Form -- */
 
-.export{
-	display: inline-block;
-	vertical-align: middle;
-	font-size: 14px;
-    color: #6e2471;
-    padding-left: 35px;
-    margin-left: 15px;
-    background: url('../images/icons/export.png') no-repeat 15px center;
-    border-left:1px solid #a9a9af;
-}
-
 h6.has-icon{padding-left: 25px;}
 
 span.has-different-icon{
