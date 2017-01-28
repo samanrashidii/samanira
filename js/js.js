@@ -11,6 +11,39 @@ $('.table.responsive').each(function(){
 
 });
 
+// Message Popup
+
+var MessagePopup = function(){
+  $('.message').addClass('shown');
+  setTimeout(function(){
+    $('.message').removeClass('shown');
+  },5000);
+} 
+
+// Form Validate
+
+$('.number-field').numeric();
+
+$("form").validate({
+  rules: {
+    mobile: {
+      required: true,
+      minlength: 11,
+      number:true
+    }
+  },
+  messages: {
+    mobile: "Please enter your phone number"
+  },
+  errorPlacement: function(error, element) {
+    error.insertAfter(element);
+  },
+  submitHandler: function (form) {
+    $('.thank-you').addClass('active');        
+  }
+
+});
+
 
 
 });
