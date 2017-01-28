@@ -1097,6 +1097,8 @@ span.time{
 	overflow-x:auto;
 }
 
+.table table{min-width: 980px;}
+
 .table tr{border-bottom: 1px solid #efeef2;}
 
 .table td,
@@ -1302,6 +1304,35 @@ span.time{
 	.content{padding:20px;}
 
 	.section-box{margin-bottom: 15px;}
+
+	.table.responsive table{min-width: 0;}
+
+	.table.responsive thead{display: none;}
+
+	.table.responsive tr{
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.table.responsive td{
+		position: relative;
+		display: block;
+		text-align: right !important;
+		padding-right: 120px;
+	}
+
+	.table.responsive td::before{
+		content:attr(th-data);
+		position: absolute;
+		right: 0;
+		top:0;
+		display: block;
+		color:#ffffff;
+		height: 100%;
+		width: 100px;
+		padding:13px 15px 0 0;
+		background: #c3a96c;
+	}
 
 	
 }
