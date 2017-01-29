@@ -368,15 +368,15 @@ span.has-different-icon{
 
 .upload-image-inner-box span {
     position: absolute;
-    display: block;
-    width: 300px;
     top:50%;
     left: 50%;
-    margin-top:-28px;
-    margin-left: -150px;
+    display: block;
+    width: 300px;
     font-size: 12px;
     color: #b0b2b7;
     padding: 40px 15px 0 15px;
+    margin-top:-28px;
+    margin-left: -150px;
     z-index: 4;
     background: url(../images/icons/upload.png) no-repeat center top;
 }
@@ -430,9 +430,9 @@ span.has-different-icon{
 .radio-holder input[type="radio"] + label{
 	position: relative;
 	display: inline-block;
-	color: #686b6d;
 	font-family: 'Roboto';
 	font-size: 14px;
+	color: #686b6d;
 	padding:4px 0 4px 42px;
 	margin:0;
 	cursor: pointer;
@@ -1459,8 +1459,11 @@ span.time{
 
 	.message{
 		width: 300px;
-		padding-left: 30px;
 		margin-left: -150px;
+	}
+
+	.message span{
+		padding-left: 30px;
 		background-position-x:8px !important;
 	}
 

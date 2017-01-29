@@ -1,4 +1,5 @@
 ﻿body{
+	direction: rtl;
 	font-family: 'Iran', 'Iran-Medium', Tahoma, sans-serif;
 	font-size:12px;
 	line-height: 2;
@@ -134,14 +135,6 @@ span.has-different-icon{
 .radio-holder input[type="radio"] + label::before{
 	left:auto;
 	right:2px;
-	width: 25px;
-	height: 25px;
-	background: #ffffff;
-	border:1px solid #d0cfd3;
-	border-radius: 50%;
-	-webkit-transition:all .2s ease-in-out;
-	-moz-transition:all .2s ease-in-out;
-	transition:all .2s ease-in-out;
 }
 
 .radio-holder input[type="radio"] + label::after{
@@ -353,7 +346,7 @@ span.time{
 
 	.has-4-column .section-box{margin-right: 0;}
 
-	.message{
+	.message span{
 		padding: 0 30px 0 0;
 		background-position-x:93% !important;
 	}
