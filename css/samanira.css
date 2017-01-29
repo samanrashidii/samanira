@@ -90,8 +90,7 @@ h5{font-size:18px;}
 h6{font-size:15px;}
 
 p{
-	line-height: 1.7;
-	padding-top:12px;
+	padding-top:15px;
 }
 
 p a{color:#6e2471;}
@@ -148,25 +147,25 @@ table{
 
 ::-webkit-input-placeholder{
 	font-family: 'Roboto';
-    font-size:15px;
+    font-size:14px;
     color: #d0cfd3;
 }
 
 :-moz-placeholder{
     font-family: 'Roboto';
-    font-size:15px;
+    font-size:14px;
     color: #d0cfd3;
 }
 
 ::-moz-placeholder{
     font-family: 'Roboto';
-    font-size:15px;
+    font-size:14px;
     color: #d0cfd3;
 }
 
 :-ms-input-placeholder{  
     font-family: 'Roboto';
-    font-size:15px;
+    font-size:14px;
     color: #d0cfd3;
 }
 
@@ -174,7 +173,6 @@ input,
 textarea,
 button{
 	font-family: 'Roboto';
- 	font-size:15px;
  	color:#686b6d;
 	border:none;
 	outline:none;
@@ -235,7 +233,6 @@ input[type="submit"]{
 }
 
 input[type="search"]{
-	font-size: 14px;
 	padding-right: 32px;
 	background: url('../images/icons/search.png') no-repeat 93% center #ffffff;
 }
@@ -245,8 +242,6 @@ input[type="reset"]{
     vertical-align: middle;
     width: auto;
     height: auto;
-    line-height: 1.5;
-    font-size: 14px;
     color: #6e2471;
     padding: 0;
     margin-left: 8px;
@@ -273,8 +268,6 @@ input[type="file"]{
 input.has-icon{padding-right: 40px;}
 
 input.datepicker{cursor: pointer;}
-
-input.not-editable:focus{padding-left: 15px;}
 
 /* -- _Actions -- */
 
@@ -427,79 +420,79 @@ span.has-different-icon{
 
 .checkbox-holder input[type="checkbox"],
 .radio-holder input[type="radio"]{
-  position: absolute;
-  top:0;
-  left:0;
-  visibility: hidden;
+	position: absolute;
+	top:0;
+	left:0;
+	visibility: hidden;
 }
 
 .checkbox-holder input[type="checkbox"] + label,
 .radio-holder input[type="radio"] + label{
-  position: relative;
-  display: inline-block;
-  color: #686b6d;
-  font-family: 'Roboto';
-  font-size: 16px;
-  padding:4px 0 4px 42px;
-  margin:0;
-  cursor: pointer;
+	position: relative;
+	display: inline-block;
+	color: #686b6d;
+	font-family: 'Roboto';
+	font-size: 14px;
+	padding:4px 0 4px 42px;
+	margin:0;
+	cursor: pointer;
 }
 
 .checkbox-holder input[type="checkbox"] + label::before{
-  content: '';
-  position: absolute;
-  top: 3px;
-  left:2px;
-  width: 25px;
-  height: 25px;
-  background: #ffffff;
-  border:1px solid #d0cfd3;
-  border-radius: 2px;
+	content: '';
+	position: absolute;
+	top: 3px;
+	left:2px;
+	width: 25px;
+	height: 25px;
+	background: #ffffff;
+	border:1px solid #d0cfd3;
+	border-radius: 2px;
 }
 
 .checkbox-holder input[type="checkbox"] + label::after{
-  content: url('../images/assets/tick.png');
-  position: absolute;
-  top: 3px;
-  left: 8px;
-  width:14px;
-  height: 11px;
-  opacity: 0;
-  -webkit-transition:all .2s ease-in-out;
-  -moz-transition:all .2s ease-in-out;
-  transition:all .2s ease-in-out;
+	content: url('../images/assets/tick.png');
+	position: absolute;
+	top: 3px;
+	left: 8px;
+	width:14px;
+	height: 11px;
+	opacity: 0;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
 }
 
 .checkbox-holder input[type="checkbox"]:checked + label::after{opacity: 1;}
 
 .radio-holder input[type="radio"] + label::before{
-  content: '';
-  position: absolute;
-  top: 3px;
-  left:2px;
-  width: 25px;
-  height: 25px;
-  background: #ffffff;
-  border:1px solid #d0cfd3;
-  border-radius: 50%;
-  -webkit-transition:all .2s ease-in-out;
-  -moz-transition:all .2s ease-in-out;
-  transition:all .2s ease-in-out;
+	content: '';
+	position: absolute;
+	top: 3px;
+	left:2px;
+	width: 25px;
+	height: 25px;
+	background: #ffffff;
+	border:1px solid #d0cfd3;
+	border-radius: 50%;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
 }
 
 .radio-holder input[type="radio"] + label::after{
-  content: '';
-  position: absolute;
-  top: 9px;
-  left: 8px;
-  width:13px;
-  height: 13px;
-  background: #6e2471;
-  border-radius: 50%;
-  opacity: 0;
-  -webkit-transition:all .2s ease-in-out;
-  -moz-transition:all .2s ease-in-out;
-  transition:all .2s ease-in-out;
+	content: '';
+	position: absolute;
+	top: 9px;
+	left: 8px;
+	width:13px;
+	height: 13px;
+	background: #6e2471;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
 }
 
 .radio-holder input[type="radio"]:checked + label::before{border:1px solid #6e2471;}
@@ -840,12 +833,12 @@ input[type="submit"]:active{
 }
 
 a.close{
-  position: absolute;
-  top:10px;
-  left:10px;
-  width: 15px;
-  height: 15px;
-  background: url('../images/assets/close.png') no-repeat center;
+	position: absolute;
+	top:10px;
+	left:10px;
+	width: 15px;
+	height: 15px;
+	background: url('../images/assets/close.png') no-repeat center;
 }
 
 /* -- _Tag -- */
@@ -853,7 +846,7 @@ a.close{
 .tag{
 	display: inline-block;
 	min-width: 52px;
-	font-size: 11px;
+	font-size: 12px;
 	color:#ffffff;
 	text-align: center;
 	padding:3px 6px;
@@ -915,8 +908,8 @@ span.time{
 }
 
 .message.shown{top:15px;}
-.message.success{background: url('../images/icons/notification.png') no-repeat left center #56cd7d;}
-.message.fail{background: url('../images/icons/error.png') no-repeat left center #df6b6b;}
+.message.success span{background: url('../images/icons/notification.png') no-repeat left center #56cd7d;}
+.message.fail span{background: url('../images/icons/error.png') no-repeat left center #df6b6b;}
 
 /* -- _Filter -- */
 
@@ -1260,7 +1253,7 @@ span.time{
 
 @media only screen and (max-width:1050px){
 
-	body{font-size: 11px;}
+	body{font-size: 13px;}
 	h1{font-size:35px;}
 	h2{font-size:30px;}
 	h3{font-size:25px;}
@@ -1317,20 +1310,20 @@ span.time{
 	.table.responsive td{
 		position: relative;
 		display: block;
-		text-align: right !important;
-		padding-right: 120px;
+		text-align: left !important;
+		padding-left: 120px;
 	}
 
 	.table.responsive td::before{
 		content:attr(th-data);
 		position: absolute;
-		right: 0;
+		left: 0;
 		top:0;
 		display: block;
 		color:#ffffff;
 		height: 100%;
 		width: 100px;
-		padding:13px 15px 0 0;
+		padding:13px 0 0 15px;
 		background: #c3a96c;
 	}
 
