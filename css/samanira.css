@@ -631,6 +631,7 @@ input[type="submit"]:active{
     position: absolute;
     left: 30px;
     top: 30px;
+    display: none;
     width: 30px;
     height: 21px;
     text-align: center;
@@ -904,12 +905,22 @@ span.time{
 
 .message span{
 	display: block;
-	padding-left:30px;
+	padding:2px 30px 0 0;
 }
 
 .message.shown{top:15px;}
-.message.success span{background: url('../images/icons/notification.png') no-repeat left center #56cd7d;}
-.message.fail span{background: url('../images/icons/error.png') no-repeat left center #df6b6b;}
+
+.message.success{background-color: #caf3c8;}
+.message.success span{
+	color:#329e2d;
+	background: url('../images/icons/success.png') no-repeat right center;
+}
+
+.message.fail{background-color: #f2a7a7;}
+.message.fail span{
+	color:#e95858;
+	background: url('../images/icons/error.png') no-repeat right center;
+}
 
 /* -- _Filter -- */
 
@@ -1297,6 +1308,8 @@ span.time{
 	.content{padding:20px;}
 
 	.section-box{margin-bottom: 15px;}
+
+	.nav-toggle{display: block;}
 
 	.table.responsive table{min-width: 0;}
 
