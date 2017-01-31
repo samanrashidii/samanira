@@ -1235,6 +1235,33 @@ span.time{
 	overflow: hidden;
 }
 
+.has-2-column .section{
+	width: 49%;
+	margin-left: 2%;
+}
+
+.has-2-column .section:nth-child(2n+1){margin-left: 0;}
+
+.has-2-column.responsive .section{
+	float: none;
+	width: 100%;
+	margin-left: 0%;
+}
+
+.has-3-column .section{
+	width: 32%;
+	margin-left: 2%;
+}
+
+.has-3-column .section:nth-child(3n+1){margin-left: 0;}
+
+.has-4-column .section{
+	width: 23.5%;
+	margin-left: 2%;
+}
+
+.has-4-column .section:nth-child(4n+1){margin-left: 0;}
+
 
 /******************************
 ********* _Responsive **********
@@ -1275,35 +1302,27 @@ span.time{
 
 	.cl-3.responsive{width: 50%;}
 
-	.has-2-column .section-box{
-		float: left;
-		width: 49%;
-		margin-left: 2%;
-	}
-
-	.has-2-column .section-box:nth-child(2n+1){margin-left: 0;}
-
-	.has-3-column .section-box{
-		float: left;
-		width: 32%;
-		margin-left: 2%;
-	}
-
-	.has-3-column .section-box:nth-child(3n+1){margin-left: 0;}
-
-	.has-4-column .section-box{
-		float: left;
-		width: 23.5%;
-		margin-left: 2%;
-	}
-
-	.has-4-column .section-box:nth-child(4n+1){margin-left: 0;}
-
 	.form-field-holder textarea{padding:15px 15px 27px 15px;}
 
 	.content{padding:20px;}
 
 	.section-box{margin-bottom: 15px;}
+
+	.has-2-column.responsive .section{
+		float: left;
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	.has-2-column.responsive .section:nth-child(2n+1){margin-left: 0;}
+
+	.has-4-column .section{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	.has-4-column .section:nth-child(4n+1){margin-left: 2%;}
+	.has-4-column .section:nth-child(2n+1){margin-left: 0;}
 
 	.table.responsive table{min-width: 0;}
 
@@ -1387,16 +1406,13 @@ span.time{
 
 	.section-box{padding:20px;}
 
-	.has-2-column .section-box,
-	.has-3-column .section-box{
+	.has-2-column .section,
+	.has-2-column.responsive .section,
+	.has-3-column .section{
 		float: none !important;
 		width: 100% !important;
-		margin-left:0;
+		margin-left:0 !important;
 	}
-
-	.has-4-column .section-box{width: 49%;}
-	.has-4-column .section-box:nth-child(4n+1){margin-left: 2%;}
-	.has-4-column .section-box:nth-child(2n+1){margin-left: 0;}
 
 	.has-padding{padding:20px;}
 	.has-top-padding{padding-top:20px;}
@@ -1456,13 +1472,11 @@ span.time{
 
 	.cl-3.responsive{width: 100%;}
 
-	.has-4-column .section-box{
+	.has-4-column .section{
 		float: none !important;
 		width: 100% !important;
-		margin-left: 0;
+		margin-left: 0 !important;
 	}
-
-	.section-box.form{padding-top:60px;}
 
 	.message{
 		width: 300px;
