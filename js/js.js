@@ -24,16 +24,38 @@ var MessagePopup = function(){
 
 $('.number-field').numeric();
 
-$("form").validate({
+$('form').validate({
   rules: {
+    nickname: {
+      required: true,
+      minlength: 5
+    },
+    email_address: {
+      required: true,
+      minlength: 5,
+      email:true
+    },
+    password: {
+      required: true,
+      minlength: 8
+    },
+    confirm_password: {
+      required: true,
+      minlength : 8,
+      equalTo : "#password"
+    },
     mobile: {
       required: true,
-      minlength: 11,
+      minlength: 5,
       number:true
     }
   },
   messages: {
-    mobile: "Please enter your phone number"
+    nickname: "لطفا نام کاربری خود را وارد نمایید",
+    email_address: "لطفا ایمیل خود را وارد نمایید",
+    password: "لطفا رمز عبور خود را وارد نمایید",
+    confirm_password: "رمز عبور وارد شده با رمز عبور بالا مطابقت ندارد",
+    mobile: "لطفا شماره موبایل خود را وارد کنید"
   },
   errorPlacement: function(error, element) {
     error.insertAfter(element);
