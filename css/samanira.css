@@ -1181,6 +1181,9 @@ span.time{
 	clear:both;
 }
 
+.card-box{margin-bottom: 20px;}
+.card-box:last-child{margin-bottom: 0;}
+
 .section{
 	float: left;
 	width: 100%;
