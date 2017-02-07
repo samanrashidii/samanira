@@ -1150,21 +1150,13 @@ span.time{
 .div-table .row{
 	width: 100%;
 	display: table;
-	overflow: hidden;
-	padding:13px 20px;
-	margin-bottom: 10px;
-	background: #ffffff;
-	border-bottom: 1px solid #efe9e0;
-    -webkit-box-shadow: 0 1px 1px #f5f0e7;
-    -moz-box-shadow: 0 1px 1px #f5f0e7;
-    box-shadow: 0 1px 1px #f5f0e7;
 }
 
 .div-table .column{
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
-	padding:0  0 0 17px;
+	padding:0  0 0 10px;
 }
 
 .column-5{width: 5%;}
