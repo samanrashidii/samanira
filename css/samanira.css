@@ -733,6 +733,7 @@ input[type="submit"]:active{
 .lowercased{text-transform: lowercase;}
 
 .no-border{border:none !important;}
+.has-border{border: 1px solid #efeff3;}
 .has-top-border{border-top: 1px solid #efeff3;}
 .has-right-border{border-right: 1px solid #efeff3;}
 .has-bottom-border{border-bottom: 1px solid #efeff3;}
