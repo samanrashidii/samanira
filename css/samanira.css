@@ -732,6 +732,12 @@ input[type="submit"]:active{
 .uppercased{text-transform: uppercase;}
 .lowercased{text-transform: lowercase;}
 
+.no-boxshadow{
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
 .no-border{border:none !important;}
 .has-border{border: 1px solid #efeff3;}
 .has-top-border{border-top: 1px solid #efeff3;}
