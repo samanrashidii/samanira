@@ -279,6 +279,13 @@ input[type="file"]{
 	z-index: 5;
 }
 
+input[type="password"],
+input[type="email"],
+input[type="tel"]{
+	direction: ltr;
+	text-align: left;
+}
+
 input.has-icon{padding-right: 40px;}
 
 input.datepicker{cursor: pointer;}
