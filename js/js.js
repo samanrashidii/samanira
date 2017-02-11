@@ -20,6 +20,14 @@ var MessagePopup = function(){
   },5000);
 } 
 
+// Select Menu
+
+if($(window).width() < 980){
+  $(function() {
+      $( ".ui-selectmenu" ).selectmenu();
+  });
+}
+
 // Form Validate
 
 $('.number-field').numeric();

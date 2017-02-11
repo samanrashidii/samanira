@@ -188,6 +188,20 @@ select{
 	-webkit-appearance:none;
 }
 
+select.normal{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-family: 'Iran';
+	font-size: 13px;
+	text-align: center;
+	padding:0 15px;
+	background: url('../images/assets/arrow-bottom.png') no-repeat 10px center #ffffff;
+	border:1px solid #e0dfe3;
+	border-radius: 2px;
+}
+
 input{
 	display: block;
 	width: 100%;
