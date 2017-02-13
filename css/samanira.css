@@ -739,7 +739,8 @@ input[type="submit"]:active{
 
 .inline-display{display: inline;}
 .inline-block-display{display: inline-block;}
-.block-display{display: block;}
+.block-display{display: block !important;}
+.none-display{display: none !important;}
 
 .center-aligned{text-align: center;}
 .left-aligned{text-align: left;}
@@ -767,6 +768,9 @@ input[type="submit"]:active{
 .has-left-border{border-left: 1px solid #efeff3;}
 
 .no-padding{padding:0 !important;}
+.no-top-padding{padding-top: 0 !important;}
+.no-bottom-padding{padding-bottom: 0 !important;}
+
 .has-padding{padding:30px;}
 .has-top-padding{padding-top:30px;}
 .has-bottom-padding{padding-bottom:30px;}
@@ -792,6 +796,9 @@ input[type="submit"]:active{
 .has-small-y-padding{padding:10px 0;}
 
 .no-margin{margin: 0 !important;}
+.no-top-margin{margin-top:0 !important;}
+.no-bottom-margin{margin-bottom: 0 !important;}
+
 .has-margin{margin:30px;}
 .has-top-margin{margin-top:30px;}
 .has-bottom-margin{margin-bottom:30px;}
