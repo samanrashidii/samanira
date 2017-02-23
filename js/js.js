@@ -22,7 +22,7 @@ var MessagePopup = function(){
 
 // Select Menu
 
-if($(window).width() < 980){
+if($(window).width() > 980){
   $(function() {
       $( ".ui-selectmenu" ).selectmenu();
   });

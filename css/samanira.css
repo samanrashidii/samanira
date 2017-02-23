@@ -184,22 +184,19 @@ button{
 }
 
 select{
-	outline: none;
-	-webkit-appearance:none;
-}
-
-select.normal{
 	display: block;
 	width: 100%;
 	height: 50px;
 	line-height: 50px;
-	font-family: 'Iran';
+	font-family: 'Roboto';
 	font-size: 13px;
 	text-align: center;
 	padding:0 15px;
 	background: url('../images/assets/arrow-bottom.png') no-repeat 10px center #ffffff;
 	border:1px solid #e0dfe3;
 	border-radius: 2px;
+	outline: none;
+	-webkit-appearance:none;
 }
 
 input{
@@ -293,7 +290,8 @@ input.datepicker{cursor: pointer;}
 /* -- _Actions -- */
 
 input:not([type="submit"]):focus,
-textarea:focus{border-color: #6e2878;}
+textarea:focus,
+select:focus{border-color: #6e2878;}
 
 input[type="submit"]:hover,
 input[type="submit"]:focus{background: #491950;}
@@ -740,7 +738,11 @@ input[type="submit"]:active{
 .inline-display{display: inline;}
 .inline-block-display{display: inline-block;}
 .block-display{display: block !important;}
+.table-display{display: table;}
+.table-cell-display{display: table-cell;}
 .none-display{display: none !important;}
+
+.vertical-aligned{vertical-align: middle;}
 
 .center-aligned{text-align: center;}
 .left-aligned{text-align: left;}
