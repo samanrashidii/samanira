@@ -1036,6 +1036,22 @@ span.time{
 	margin-left: 7px;
 }
 
+/* -- _Quotes -- */
+
+.double-quotes::before{
+	content:'"';
+	font-family: 'Iran-Medium';
+	font-size: 18px;
+	color:#000000;
+}
+
+.double-quotes::after{
+	content:'"';
+	font-family: 'Iran-Medium';
+	font-size: 18px;
+	color:#000000;
+}
+
 /* -- _Pagination -- */
 
 .pagination{
