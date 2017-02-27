@@ -1347,6 +1347,26 @@ span.time{
 	margin-right: 0;
 }
 
+.has-3-9-column > .section{
+	width: 72.5%;
+	margin-right: 2.5%;
+}
+
+.has-3-9-column > .section:nth-child(2n+1){
+	width: 25%;
+	margin-right: 0;
+}
+
+.has-7-5-column > .section{
+	width: 40.625%;
+	margin-right: 2.5%;
+}
+
+.has-7-5-column > .section:nth-child(2n+1){
+	width: 56.875%;
+	margin-right: 0;
+}
+
 .has-4-4-4-column .section{
 	width: 31.66666666666667%;
 	padding:0;
@@ -1357,15 +1377,15 @@ span.time{
 
 .has-3-3-3-3-column .section{
 	float: right;
-	width: 23.125%;
+	width: 23.72%;
 	padding:0;
-	margin-right: 2.5%;
+	margin-right: 1.706%;
 }
 
 .has-3-3-3-3-column .section:nth-child(4n+1){margin-right: 0;}
 
 .horizontal-box{
-	height: 150px;
+	height: 151px;
 	position: relative;
 	padding-right: 255px;
 }
@@ -1380,11 +1400,18 @@ span.time{
 
 .horizontal-box .section-box{height: 100%;}
 
+.horizontal-box.large{
+	height: 170px;
+	padding-right: 290px;
+}
+
+.horizontal-box.large .horizontal-box-image{width: 290px;}
+.horizontal-box.large .post-stats{padding-top:12px;}
+
 
 /******************************
-********* _Responsive **********
+********* _Responsive *********
 *******************************/
-
 
 
 
@@ -1394,37 +1421,40 @@ span.time{
 
 	.upload-image-inner-box span{
 		width: 200px;
-		margin-left: -100px;
+		margin-right: -100px;
 	}
 
 }
 
 						/*            1200 Screen End        */
 
-						/*            1050 Screen Start        */
+						/*            980px Screen Start        */
 
-@media only screen and (max-width:1050px){
+@media only screen and (max-width:980px){
 
-	body{font-size: 13px;}
-	h1{font-size:35px;}
-	h2{font-size:30px;}
-	h3{font-size:25px;}
-	h4{font-size:20px;}
-	h5{font-size:27px;}
-	h6{font-size:13px;}
-
-	.cl-3{width: 100%;}
-	.cl-4{width: 100%;}
-	.cl-6{width: 100%;}
-	.cl-9{width: 100%;}
-
-	.cl-3.responsive{width: 50%;}
+	body{font-size: 11px;}
+	h1{font-size:25px;}
+	h2{font-size:20px;}
+	h3{font-size:17px;}
+	h4{font-size:14px;}
+	h5{font-size:13px;}
+	h6{font-size:12px;}
 
 	.form-field-holder textarea{padding:15px 15px 27px 15px;}
 
 	.content{padding:20px;}
 
 	.section-box{margin-bottom: 15px;}
+
+	.has-6-6-column .section,
+	.has-9-3-column .section,
+	.has-3-9-column .section,
+	.has-7-5-column .section,
+	.has-4-4-4-column .section{
+		float: none !important;
+		width: 100% !important;
+		margin:0;
+	}
 
 	.has-3-3-3-3-column .section{
 		width: 48.75%;
@@ -1448,14 +1478,14 @@ span.time{
 	.table.responsive td{
 		position: relative;
 		display: block;
-		text-align: left !important;
-		padding-left: 120px;
+		text-align: right !important;
+		padding-right: 120px;
 	}
 
 	.table.responsive td::before{
 		content:attr(th-data);
 		position: absolute;
-		left: 0;
+		right: 0;
 		top:0;
 		display: block;
 		color:#ffffff;
@@ -1468,7 +1498,7 @@ span.time{
 	
 }
 
-						/*            1050 Screen End        */
+						/*            980px Screen End        */
 
 						/*            860 Screen Start        */
 
@@ -1488,13 +1518,13 @@ span.time{
 	.filtering-boxes{display: block;}
 
 	.filter .field-holder{
-		float: left;
+		float: right;
 		display: block;
 		width: 49%;
-		margin:15px 0 15px 2%;
+		margin:15px 2% 15px 0;
 	}
 
-	.filter .field-holder:nth-child(2n+1){margin-left: 0}
+	.filter .field-holder:nth-child(2n+1){margin-right: 0}
 
 	.filter .count {
 		padding-top: 0; 
@@ -1517,13 +1547,6 @@ span.time{
 	.content{padding:15px 5px;}
 
 	.section-box{padding:20px;}
-
-	.has-6-6-column .section,
-	.has-4-4-4-column .section{
-		float: none !important;
-		width: 100% !important;
-		margin-right:0;
-	}
 
 	.has-padding{padding:20px;}
 	.has-top-padding{padding-top:20px;}
@@ -1575,6 +1598,12 @@ span.time{
 
 @media only screen and (max-width:640px){
 
+	.has-3-3-3-3-column .section{
+		float: none !important;
+		width: 100% !important;
+		margin-right: 0;
+	}
+
 	.pagination ul li{
 		width: 30px;
 		height: 30px;
@@ -1589,28 +1618,12 @@ span.time{
 
 @media only screen and (max-width: 560px){
 
-	.cl-3.responsive{width: 100%;}
-
-	.has-3-3-3-3-column .section{
-		float: none !important;
-		width: 100% !important;
-		margin-right: 0;
-	}
-
-	.message{
-		width: 300px;
-		margin-left: -150px;
-	}
-
-	.message span{
-		padding-left: 30px;
-		background-position-x:8px !important;
-	}
+	.section-box.form{padding-top:60px;}
 
 	.filter .field-holder{
 		float: none !important;
 		width: 100% !important;
-		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.pagination ul{
@@ -1626,15 +1639,14 @@ span.time{
 
 	.status-box{
 		top:20px;
-		right: auto;
-		left:20px;
+		right: 20px;
 	}
 
 	.inline-upload{padding-top:90px;}
 
 	.file-name{
 		top:59px;
-		left:0;
+		right:0;
 	}
 
 	.breadcrumb ul{padding:3px 18px;}
@@ -1648,12 +1660,11 @@ span.time{
 
 	.breadcrumb ul li::before{
 		position: absolute;
-		left:50%;
+		right:50%;
 		top:33px;
 		width: 9px;
 		height: 5px;
-		background: url('../images/assets/select-arrow-bottom.png') no-repeat center;
-		margin:0 0 0 -4.5px;
+		margin:0 -4.5px 0 0;
 		border-radius: 0;
 	}
 
