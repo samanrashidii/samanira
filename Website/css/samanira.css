@@ -173,6 +173,7 @@ input,
 textarea,
 button{
 	font-family: 'Roboto';
+	font-size: 14px;
  	color:#686b6d;
 	border:none;
 	outline:none;
@@ -236,7 +237,7 @@ input[type="submit"]{
 	text-transform: uppercase;
 	padding:0 15px;
 	cursor: pointer;
-	background: #6e2878;
+	background-color: #6e2878;
 	border-radius: 3px;
     -webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
@@ -294,7 +295,7 @@ textarea:focus,
 select:focus{border-color: #6e2878;}
 
 input[type="submit"]:hover,
-input[type="submit"]:focus{background: #491950;}
+input[type="submit"]:focus{background-color: #491950;}
 
 input[type="reset"]:focus{padding: 0;}
 
@@ -344,14 +345,14 @@ span.has-different-icon{
 	color:#ffffff;
 	padding:0;
 	cursor: pointer;
-	background: #6e2878;
+	background-color: #6e2878;
 	z-index: 6;
 	-webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 }
 
-.upload-bttn label:hover{background: #491950;}
+.upload-bttn label:hover{background-color: #491950;}
 
 /* _Upload Image Box */
 
@@ -382,7 +383,7 @@ span.has-different-icon{
 	height: 100%;
 	overflow: hidden;
 	text-align: center;	
-	background:  #f7f7f9;
+	background-color:  #f7f7f9;
 }    
 
 .upload-image a.remove {visibility: hidden;}
@@ -427,7 +428,7 @@ span.has-different-icon{
 	position: relative;
 	display: inline-block;
 	min-width: 120px;
-	background: #dddddd;
+	background-color: #dddddd;
 	border-radius: 5px;
 }
 
@@ -466,7 +467,7 @@ span.has-different-icon{
 	left:2px;
 	width: 25px;
 	height: 25px;
-	background: #ffffff;
+	background-color: #ffffff;
 	border:1px solid #d0cfd3;
 	border-radius: 2px;
 }
@@ -493,7 +494,7 @@ span.has-different-icon{
 	left:2px;
 	width: 25px;
 	height: 25px;
-	background: #ffffff;
+	background-color: #ffffff;
 	border:1px solid #d0cfd3;
 	border-radius: 50%;
 	-webkit-transition:all .2s ease-in-out;
@@ -508,7 +509,7 @@ span.has-different-icon{
 	left: 8px;
 	width:13px;
 	height: 13px;
-	background: #6e2471;
+	background-color: #6e2471;
 	border-radius: 50%;
 	opacity: 0;
 	-webkit-transition:all .2s ease-in-out;
@@ -661,7 +662,7 @@ input[type="submit"]:active{
 	display: block;
 	height: 3px;
 	margin-bottom: 6px;
-	background: #efeff3;
+	background-color: #efeff3;
 }
 
 .nav-toggle span:last-child{margin-bottom: 0;}
@@ -671,7 +672,7 @@ input[type="submit"]:active{
 	display: block;
 	width: 0;
 	height: 3px;
-	background: #6e2471;
+	background-color: #6e2471;
 	-webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
@@ -727,7 +728,7 @@ input[type="submit"]:active{
 	width: 1px;
 	height: 13px;
 	margin: 0 12px;
-	background: #dadce2;
+	background-color: #dadce2;
 }
 
 
@@ -909,7 +910,7 @@ a.close{
 	color:#ffffff;
 	text-align: center;
 	padding:3px 6px;
-	background: #212121;
+	background-color: #212121;
 	border-radius: 2px;
 }
 
@@ -925,7 +926,7 @@ span.description{
 	font-size: 12px;
 	color:#ffffff;
 	padding:3px 10px;
-	background: #4f535f;
+	background-color: #4f535f;
 	border-radius: 2px;
 }
 
@@ -1094,7 +1095,7 @@ span.time{
 
 .pagination ul li.active a{
 	color:#ffffff;
-	background: #c3aa68;
+	background-color: #c3aa68;
 	border-color: #c3aa68;
 }
 
@@ -1136,7 +1137,7 @@ span.time{
 	display: block;
 	overflow: hidden;
 	padding:15px 18px;
-	background: #ffffff;
+	background-color: #ffffff;
 	border-radius: 2px;
 }
 
@@ -1151,7 +1152,7 @@ span.time{
 	width: 4px;
 	height: 4px;
 	margin:0 12px;
-	background: #353641;
+	background-color: #353641;
 	border-radius: 50%;
 	-webkit-transform:translateY(-3px);
 	-moz-transform:translateY(-3px);
@@ -1202,11 +1203,11 @@ span.time{
 .table th{
 	font-family: 'Roboto';
 	color:#353641;
-	background: #efeff3;
+	background-color: #efeff3;
 }
 
-.table tr.active td{background: #f9f5fa;}
-.table tr:not(:first-child):not(.active):hover{background: #fbfbfd;}
+.table tr.active td{background-color: #f9f5fa;}
+.table tr:not(:first-child):not(.active):hover{background-color: #fbfbfd;}
 
 .table-filter{
 	font-family: 'Roboto-Medium';
@@ -1442,7 +1443,7 @@ span.time{
 
 @media only screen and (max-width:980px){
 
-	body{font-size: 11px;}
+	body{font-size: 12px;}
 	h1{font-size:25px;}
 	h2{font-size:20px;}
 	h3{font-size:17px;}
@@ -1528,7 +1529,7 @@ span.time{
 		height: 100%;
 		width: 100px;
 		padding:13px 0 0 15px;
-		background: #c3a96c;
+		background-color: #c3a96c;
 	}
 
 	
