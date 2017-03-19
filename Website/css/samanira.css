@@ -1348,6 +1348,26 @@ span.time{
 
 .has-6-6-column > .section:nth-child(2n+1){margin-left: 0;}
 
+.has-10-2-column > .section{
+	width: 78%;
+	margin-left: 2%;
+}
+
+.has-10-2-column > .section:nth-child(2n+1){
+	width: 20%;
+	margin-left: 0;
+}
+
+.has-2-10-column > .section{
+	width: 20%;
+	margin-left: 2%;
+}
+
+.has-2-10-column > .section:nth-child(2n+1){
+	width: 78%;
+	margin-left: 0;
+}
+
 .has-9-3-column > .section{
 	width: 25%;
 	margin-left: 2.5%;
@@ -1471,6 +1491,8 @@ span.time{
 	.has-6-6-column > .section,
 	.has-9-3-column > .section,
 	.has-3-9-column > .section,
+	.has-10-2-column > .section,
+	.has-2-10-column > .section,
 	.has-7-5-column > .section,
 	.has-4-4-4-column > .section{
 		float: none !important;
