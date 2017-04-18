@@ -698,7 +698,6 @@ input[type="submit"]:active{
 	margin:auto;
 }
 
-
 .frame.xlarge{max-width: 1320px;}
 .frame.large{max-width: 1220px;}
 .frame.medium{max-width: 980px;}
@@ -1212,14 +1211,14 @@ span.time{
 
 .double-quotes::before{
 	content:'"';
-	font-family: 'Iran-Medium';
+	font-family: 'Roboto-Medium';
 	font-size: 18px;
 	color:#000000;
 }
 
 .double-quotes::after{
 	content:'"';
-	font-family: 'Iran-Medium';
+	font-family: 'Roboto-Medium';
 	font-size: 18px;
 	color:#000000;
 }
