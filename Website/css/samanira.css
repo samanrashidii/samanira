@@ -1025,7 +1025,7 @@ a.close{
 	content:attr(list-number);
 	display: inline-block;
 	color: #c3aa68;
-	margin-right: 16px;
+	margin-right: 8px;
 }
 
 .tick-bullet li{
