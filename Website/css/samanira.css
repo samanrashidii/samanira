@@ -287,6 +287,8 @@ input.has-icon{padding-right: 40px;}
 
 input.datepicker{cursor: pointer;}
 
+address{font-style: normal;}
+
 /* -- _Actions -- */
 
 input:not([type="submit"]):focus,
