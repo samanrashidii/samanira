@@ -784,6 +784,24 @@ input[type="submit"]:active{
 	box-shadow: 0 0 10px #5a5a5a !important;
 }
 
+.has-transition{
+	-webkit-transition:all .2s linear;
+	-moz-transition:all .2s linear;
+	transition:all .2s linear;
+}
+
+.has-ease-transition{
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+}
+
+.has-cubic-transition{
+	-webkit-transition:all .2s cubic-bezier(.15,.41,.89,.63);
+	-moz-transition:all .2s cubic-bezier(.15,.41,.89,.63);
+	transition:all .2s cubic-bezier(.15,.41,.89,.63);
+}
+
 .no-border{border:none !important;}
 .has-border{border: 1px solid #efeff3;}
 .has-top-border{border-top: 1px solid #efeff3;}
