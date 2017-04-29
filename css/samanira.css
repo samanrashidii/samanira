@@ -2,7 +2,7 @@
 
 SSSS  AAAAA  MMM  MMM  AAAAA  NN    N  II  RRRR  AAAAA
 S     A   A  M  MM  M  A   A  N N   N  II  RRRR  A   A
-SSSS  AAAAA  M  MM  M  AAAAA  N  N  N  II  RRRR  AAAAA   v1.4
+SSSS  AAAAA  M  MM  M  AAAAA  N  N  N  II  RRRR  AAAAA   v1.5
    S  A   A  M      M  A   A  N   N N  II  R  R  A   A
 SSSS  S   A  M      M  A   A  N    NN  II  R  R  A   A
 
@@ -1375,17 +1375,36 @@ span.time{
 
 .static-content p strong{font-family: 'Roboto-Medium' !important;}
 
+.static-content ul,
+.static-content ol{margin:5px 0 0 10px;}
+
+.static-content ul li::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 12px;
+    background-color: #c3aa68;
+    border-radius: 50%;
+}
+
+.static-content ol li::before {
+    content: attr(list-number);
+    display: inline-block;
+    margin-right: 6px;
+}
+
 /* -- _Google Map -- */
 
 #map_canvas{
-  width:100%;
-  height:230px;
-  position: relative;
+	width:100%;
+	height:230px;
+	position: relative;
 }
 
 #map_canvas img{
-  max-width:none!important;
-  background:none!important;
+	max-width:none!important;
+	background:none!important;
 }
 
 /**************************

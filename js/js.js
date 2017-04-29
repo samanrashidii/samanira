@@ -1,10 +1,18 @@
 $(document).ready(function(){
 
+// Static Content ol li number
+
+$(window).load(function(){
+  var StaticliNumber = $('.static-content ol li').length;
+  for(var i = 1; i <= StaticliNumber; i++){
+    $('.static-content ol li:nth-child('+i+')').attr('list-number', i+' -');
+  }
+});
+
 // Number Bullet
 
 $(window).load(function(){
   var liNumber = $('.number-bullet li').length;
-  console.log(liNumber);
   for(var i = 1; i <= liNumber; i++){
     $('.number-bullet li:nth-child('+i+')').attr('list-number', i+' -');
   }
@@ -12,13 +20,13 @@ $(window).load(function(){
 
 // Responsive Table
 
-$('.table.responsive').each(function(){  
-
-  for (var i = 1; i <= $(this).find('th').length ; i++) {
-    var thVal = $(this).find('th:nth-child('+i+')').html();
-    $(this).find('td:nth-child('+i+')').attr('th-data', thVal);
-  };
-
+$(window).load(function(){
+  $('.table.responsive').each(function(){  
+    for (var i = 1; i <= $(this).find('th').length ; i++) {
+      var thVal = $(this).find('th:nth-child('+i+')').html();
+      $(this).find('td:nth-child('+i+')').attr('th-data', thVal);
+    };
+  });
 });
 
 // Message Popup
