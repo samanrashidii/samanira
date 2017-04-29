@@ -99,6 +99,11 @@ table{
 	border-collapse: collapse;
 }
 
+iframe{
+	border:none;
+	outline:none;
+}
+
 
 /******************
 *** _FORM STYLES ***
@@ -1365,7 +1370,8 @@ span.time{
 	margin-top:15px !important;
 }
 
-.static-content img{margin-top:15px !important;}
+.static-content img,
+.static-content .video-player{margin-top:15px !important;}
 
 .static-content p{
 	font-size: 18px !important;
