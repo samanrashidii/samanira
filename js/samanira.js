@@ -1,5 +1,30 @@
 $(document).ready(function(){
 
+// Test Function
+
+var Testing = function(testText){
+  console.log(testText);
+}
+
+// Textarea Character Left
+
+var charLeft;
+
+$('.textarea-holder textarea').on('keyup load', function () {
+  charLeft = 250 - $(this).val().length;
+  if (charLeft < 0) {
+      charLeft = 0;
+  }
+  $(this).siblings().find('strong').text(charLeft);
+});
+
+$(window).load( function () {
+    $('.textarea-holder textarea').each( function () {
+        charLeft = 250 - $(this).val().length;
+        $(this).siblings().find('strong').text(charLeft);    
+    });
+});
+
 // Static Content ol li number
 
 $(window).load(function(){
