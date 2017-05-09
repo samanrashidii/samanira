@@ -10,6 +10,7 @@ SSSS  S   A  M      M  A   A  N    NN  II  R  R  A   A
 
 @charset "utf-8";
 @import url('fonts.css');
+@import url('icons.css');
 
 /******************
 *** _MAIN STYLES ***
@@ -221,6 +222,16 @@ textarea{
 	resize:none;
 	border:1px solid #e0dfe3;
 	border-radius: 2px;
+}
+
+.textarea-holder{position: relative;}
+
+.textarea-holder span{
+	position: absolute;
+	bottom:15px;
+	left:15px;
+	display: inline-block;
+	font-size: 15px;
 }
 
 label{
@@ -1762,6 +1773,15 @@ span.time{
 ********* _Responsive *********
 *******************************/
 
+						/*            Min 980 Screen Start        */
+
+@media only screen and (min-width:980px){
+
+	.mobile-only{display: none !important;}
+
+}
+
+						/*            Min 980 Screen End        */
 
 
 						/*            1200 Screen Start        */
@@ -1777,9 +1797,11 @@ span.time{
 
 						/*            1200 Screen End        */
 
-						/*            980px Screen Start        */
+						/*            980 Screen Start        */
 
 @media only screen and (max-width:980px){
+
+	.desktop-only{display: none !important;}
 
 	body{font-size: 14px;}
 	h1{font-size:29px;}
@@ -1925,7 +1947,7 @@ span.time{
 	
 }
 
-						/*            980px Screen End        */
+						/*            980 Screen End        */
 
 						/*            860 Screen Start        */
 
