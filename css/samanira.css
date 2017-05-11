@@ -750,9 +750,9 @@ input[type="submit"]:active{
 ******** _Common ********
 *************************/
 
-.hidden-overflow{overflow: hidden;}
-.hidden-visibility{visibility: hidden;}
-
+.no-overflow{overflow: visible !important;}
+.hidden-overflow{overflow: hidden !important;}
+.hidden-visibility{visibility: hidden !important;}
 .inline-display{display: inline !important;}
 .inline-block-display{display: inline-block !important;}
 .block-display{display: block !important;}
@@ -767,8 +767,15 @@ input[type="submit"]:active{
 	width: 100%;
 	height: 100%;
 }
-
 .vertical-aligned{vertical-align: middle;}
+.auto-width{width: auto;}
+
+.hidden-overflow{overflow: hidden;}
+.relative-position{position: relative;}
+.z-index{
+	position: relative;
+	z-index: 100;
+}
 
 .center-aligned{text-align: center;}
 .left-aligned{text-align: left;}
@@ -1995,6 +2002,8 @@ span.time{
 	textarea,
 	select{font-size: 16px !important;}
 
+	.bttn{font-size: 14px;}
+
 	.has-xxlarge-padding{padding:40px !important;}
 	.has-xxlarge-top-padding{padding-top:40px !important;}
 	.has-xxlarge-bottom-padding{padding-bottom:40px !important;}
@@ -2101,6 +2110,13 @@ span.time{
 		width: 100%;
 		margin-top:15px;
 	}
+
+	.circle-bullet li::before{
+		width: 7px;
+		height: 7px;
+		margin-left: 8px;
+	}
+	.number-bullet li::before{margin-left: 8px;}
 
 }
 
