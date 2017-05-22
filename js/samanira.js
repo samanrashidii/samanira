@@ -6,6 +6,11 @@ var Testing = function(testText){
   console.log(testText);
 }
 
+// Get the Current Year
+
+var thisYear = new Date().getFullYear();
+$('.current-year').html(thisYear);
+
 // Textarea Character Left
 
 var charLeft;
