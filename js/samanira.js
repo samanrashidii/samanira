@@ -117,7 +117,22 @@ $('form').validate({
     error.insertAfter(element);
   },
   submitHandler: function (form) {
-    $('.thank-you').addClass('active');        
+    if($('.samanira_secure').val() == '') {
+      $.ajax({
+        type: "POST",
+        url: "mail.php",
+        data: $(form).serialize(),
+        success: function () {
+            $('.contact_form :input').prop('disabled', true);
+            $('.message.success').fadeIn(700); 
+        }
+      });
+      return false; // required to block normal submit since you used ajax
+    } else {
+      $('.contact_form input[type="submit"]').prop('disabled', true);
+      return false;
+    }
+  }     
   }
 
 });
