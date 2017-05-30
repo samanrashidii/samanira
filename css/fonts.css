@@ -1,3 +1,5 @@
+/* Left to Right Fonts */
+
 @font-face{
 	font-family:'Roboto';
 	src: url('../fonts/Roboto-Light.eot');
@@ -21,6 +23,8 @@
 	font-weight: normal;
   	font-style: normal;
 }
+
+/* Right to Left Fonts */
 
 @font-face{
 	font-family:'Iran';
