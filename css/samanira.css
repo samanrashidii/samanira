@@ -2,7 +2,7 @@
 
 SSSS  AAAAA  MMM  MMM  AAAAA  NN    N  II  RRRR  AAAAA
 S     A   A  M  MM  M  A   A  N N   N  II  RRRR  A   A
-SSSS  AAAAA  M  MM  M  AAAAA  N  N  N  II  RRRR  AAAAA   v1.6 | SamanirA
+SSSS  AAAAA  M  MM  M  AAAAA  N  N  N  II  RRRR  AAAAA   v1.7 | SamanirA
    S  A   A  M      M  A   A  N   N N  II  R  R  A   A
 SSSS  S   A  M      M  A   A  N    NN  II  R  R  A   A
 
@@ -25,7 +25,7 @@ Border-Radius = 2px;
 */
 
 /******************
-*** #MAIN ***
+****** #MAIN ******
 *******************/
 
 *,
@@ -116,7 +116,7 @@ iframe{
 
 
 /******************
-*** #FORM ***
+****** #FORM ******
 *******************/
 
 
@@ -554,9 +554,9 @@ label.error{
 	border:none;
 }
 
-/******************
-***** #BUTTONS *****
-*******************/
+/*********************
+****** #BUTTONS ******
+**********************/
 
 .button-holder{
 	width: 100%;
@@ -687,9 +687,9 @@ input[type="submit"]:active{
 
 .nav-toggle.active span{background-color: #0a9abd;}
 
-/**********************
-******* #FRAMES *******
-***********************/
+/********************
+****** #FRAMES ******
+*********************/
 
 #wrapper{
 	position: relative;
@@ -736,9 +736,9 @@ input[type="submit"]:active{
 	background-color: #121212;
 }
 
-/************************
-******** #COMMON ********
-*************************/
+/********************
+****** #COMMON ******
+*********************/
 
 .auto-width{width: auto;}
 .full-width{width: 100% !important;}
@@ -1043,9 +1043,9 @@ input[type="submit"]:active{
 .has-xxsmall-x-margin{margin:0 5px !important;}
 .has-xxsmall-y-margin{margin:5px 0 !important;}
 
-/*************************
-***** #CLASSES *****
-**************************/
+/*********************
+****** #CLASSES ******
+**********************/
 
 /* -- _Overlay -- */
 
@@ -1476,9 +1476,9 @@ a.close{
 	background:none!important;
 }
 
-/**************************
-********* #TABLES **********
-***************************/
+/********************
+****** #TABLES ******
+*********************/
 
 .table{width: 100%;}
 
@@ -1548,9 +1548,9 @@ a.close{
 .column-90{width: 90%;}
 .column-95{width: 95%;}
 
-/******************************
-********* #LAYOUT *********
-*******************************/
+/********************
+****** #LAYOUT ******
+*********************/
 
 .content{padding:30px 20px;}
 
@@ -1799,9 +1799,9 @@ a.close{
 
 .horizontal-box .section-box{height: 100%;}
 
-/******************************
-********* #RESPONSIVE *********
-*******************************/
+/************************
+****** #RESPONSIVE ******
+*************************/
 
 						/*            Min 980 Screen Start        */
 
@@ -2141,7 +2141,7 @@ a.close{
 		height: 7px;
 		margin-left: 8px;
 	}
-	
+
 	.number-bullet li::before{margin-left: 8px;}
 
 }
