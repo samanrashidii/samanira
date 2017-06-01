@@ -538,22 +538,6 @@ label.error{
 
 .radio-holder input[type="radio"]:checked + label::after{opacity: 1;}
 
-.image-caption{
-	width: 100%;
-	overflow: hidden;
-	padding-bottom: 3px;
-	margin-top:15px;
-	border-bottom: 1px solid #9a9a9a;
-}
-
-.caption-textarea{
-	height: auto;
-	overflow: hidden;
-	font-size: 14px;
-	padding:0;
-	border:none;
-}
-
 /*********************
 ****** #BUTTONS ******
 **********************/
@@ -699,18 +683,18 @@ input[type="submit"]:active{
 }
 
 .frame{
-	max-width: 1110px;
-	padding: 0 10px;
+	max-width: 1120px;
+	padding: 0 15px;
 	margin:auto;
 }
 
-.frame.xxlarge{max-width: 1460px;}
-.frame.xlarge{max-width: 1320px;}
-.frame.large{max-width: 1220px;}
+.frame.xxlarge{max-width: 1470px;}
+.frame.xlarge{max-width: 1330px;}
+.frame.large{max-width: 1230px;}
 .frame.medium{max-width: 980px;}
-.frame.small{max-width: 740px;}
-.frame.xsmall{max-width: 520px;}
-.frame.xxsmall{max-width: 420px;}
+.frame.small{max-width: 750px;}
+.frame.xsmall{max-width: 530px;}
+.frame.xxsmall{max-width: 430px;}
 
 .clearFix{
 	display:block;
@@ -1316,7 +1300,7 @@ a.close{
     margin: 0 1px;
 }
 
-.pagination ul li a {
+.pagination ul li a{
 	display: block;
 	width: 40px;
     height: 40px;
@@ -1525,7 +1509,7 @@ a.close{
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
-	padding:0  0 0 10px;
+	padding:0 0 0 10px;
 }
 
 .column-5{width: 5%;}
@@ -1608,6 +1592,8 @@ a.close{
 
 .section-box.solo{float: none;}
 
+.section-box.large-padding{padding:40px;}
+.section-box.normal-padding{padding:25px;}
 .section-box.medium-padding{padding:20px;}
 .section-box.small-padding{padding:10px;}
 
@@ -1842,6 +1828,45 @@ a.close{
 	h6{font-size:15px;}
 	p{padding-top:10px;}
 
+	fieldset{
+		padding:12px;
+		border:1px solid #121212;
+	}
+
+	legend{
+		font-size: 16px;
+		color:#121212;
+		padding:0 12px;
+	}
+
+	label,
+	label.error{font-size: 14px;}
+
+	input,
+	select{
+		height: 45px;
+		line-height: 45px;
+	}
+
+	textarea{
+		height: 120px;
+		padding:12px;
+	}
+
+	.field-holder{margin:12px 0;}
+
+	.bttn{
+		min-width: 120px;
+		font-size: 14px;
+		padding:8px 14px;
+	}
+
+	.bttn.large{
+		min-width: 200px;
+		font-size: 16px;
+		padding:12px 18px;
+	}
+
 	.font-size-vlarge{font-size: 25px;}
 	.font-size-xxlarge{font-size: 23px;}
 	.font-size-xlarge{font-size: 20px;}
@@ -1971,6 +1996,9 @@ a.close{
 		padding-top:10px !important;
 	}
 
+	.double-quotes::before,
+	.double-quotes::after{font-size: 16px;}
+
 	
 }
 
@@ -1995,8 +2023,6 @@ a.close{
 	select{font-size: 16px !important;}
 
 	input[type="submit"]{font-size: 14px !important;}
-
-	.bttn{font-size: 14px;}
 
 	.has-vlarge-padding{padding:40px !important;}
 	.has-vlarge-top-padding{padding-top:40px !important;}
@@ -2142,6 +2168,16 @@ a.close{
 	.has-xxsmall-x-margin{margin:0 5px !important;}
 	.has-xxsmall-y-margin{margin:5px 0 !important;}
 
+	.overlay-box{padding:15px;}
+
+	.web-tags a{padding:4px 10px;}
+
+	.tag{
+		min-width: 40px;
+		font-size: 12px;
+		padding:2px 5px;
+	}
+
 	.circle-bullet li::before{
 		width: 7px;
 		height: 7px;
@@ -2152,6 +2188,14 @@ a.close{
 	.tick-bullet li::before{margin-left: 8px;}
 
 	.tick-bullet li{font-size: 14px;}
+
+	.message{
+		width: 300px;
+		padding:12px;
+		margin-left: -150px;
+	}
+
+	.post-stats span::after{margin:0 5px;}
 
 }
 
@@ -2172,6 +2216,7 @@ a.close{
 		width: 30px;
 		height: 30px;
 		line-height: 27px;
+		font-size: 14px;
 	}
 
 }
@@ -2182,6 +2227,7 @@ a.close{
 
 @media only screen and (max-width: 560px){
 
+	select,
 	input[type="search"]{background-position-x:97%;}
 
 	.rspv.has-6-6-column > .section,
