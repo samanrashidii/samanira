@@ -1793,11 +1793,21 @@ a.close{
 
 @media only screen and (min-width:980px){
 
-	.mobile-only{display: none !important;}
+	.tablet-only{display: none !important;}
 
 }
 
 						/*            Min 980 Screen End        */
+
+						/*            Min 540 Screen Start        */
+
+@media only screen and (min-width:540px){
+
+	.mobile-only{display: none !important;}
+
+}
+
+						/*            Min 540 Screen End        */						
 
 
 						/*            1200 Screen Start        */
@@ -2226,6 +2236,8 @@ a.close{
 						/*            560 Screen Start        */						
 
 @media only screen and (max-width: 560px){
+
+	.tablet-desktop-only{display: none !important;}
 
 	select,
 	input[type="search"]{background-position-x:97%;}
