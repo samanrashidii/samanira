@@ -1031,6 +1031,15 @@ input[type="submit"]:active{
 ****** #CLASSES ******
 **********************/
 
+.schema-item{
+	display: block;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	opacity: 0;
+}
+
 /* -- _Overlay -- */
 
 .overlay{

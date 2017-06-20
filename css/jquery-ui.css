@@ -1,11 +1,3 @@
-/*! jQuery UI - v1.11.4 - 2015-05-26
-* http://jqueryui.com
-* Includes: core.css, draggable.css, resizable.css, selectable.css, sortable.css, accordion.css, autocomplete.css, button.css, datepicker.css, dialog.css, menu.css, progressbar.css, selectmenu.css, slider.css, spinner.css, tabs.css, tooltip.css, theme.css
-* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Trebuchet%20MS%2CTahoma%2CVerdana%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=f6a828&bgTextureHeader=gloss_wave&bgImgOpacityHeader=35&borderColorHeader=e78f08&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=eeeeee&bgTextureContent=highlight_soft&bgImgOpacityContent=100&borderColorContent=dddddd&fcContent=333333&iconColorContent=222222&bgColorDefault=f6f6f6&bgTextureDefault=glass&bgImgOpacityDefault=100&borderColorDefault=cccccc&fcDefault=1c94c4&iconColorDefault=ef8c08&bgColorHover=fdf5ce&bgTextureHover=glass&bgImgOpacityHover=100&borderColorHover=fbcb09&fcHover=c77405&iconColorHover=ef8c08&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=fbd850&fcActive=eb8f00&iconColorActive=ef8c08&bgColorHighlight=ffe45c&bgTextureHighlight=highlight_soft&bgImgOpacityHighlight=75&borderColorHighlight=fed22f&fcHighlight=363636&iconColorHighlight=228ef1&bgColorError=b81900&bgTextureError=diagonals_thick&bgImgOpacityError=18&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffd27a&bgColorOverlay=666666&bgTextureOverlay=diagonals_thick&bgImgOpacityOverlay=20&opacityOverlay=50&bgColorShadow=000000&bgTextureShadow=flat&bgImgOpacityShadow=10&opacityShadow=20&thicknessShadow=5px&offsetTopShadow=-5px&offsetLeftShadow=-5px&cornerRadiusShadow=5px
-* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
-
-@import url(fonts.css);
-
 /* Layout helpers
 ----------------------------------*/
 .ui-helper-hidden {
@@ -490,7 +482,7 @@ button.ui-button::-moz-focus-inner {
 
 #ui-datepicker-div {
 	margin: 2px 0;
-	border: 1px solid #6e2878;
+	border: 1px solid #0a9abd;
 	z-index: 10 !important;
 }
 
@@ -507,7 +499,7 @@ button.ui-button::-moz-focus-inner {
 .ui_tpicker_minute_slider.ui-widget{background: #e8ecf3;}
 
 .ui_tpicker_hour_slider .ui-slider-handle,
-.ui_tpicker_minute_slider .ui-slider-handle{background: #6e2878;}
+.ui_tpicker_minute_slider .ui-slider-handle{background: #0a9abd;}
 
 .ui-timepicker-div .ui-datepicker-title{display: none;}
 
@@ -520,7 +512,7 @@ button.ui-button::-moz-focus-inner {
 
 .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close{
 	color: #ffffff!important;
-	background: #6e2878!important;
+	background: #0a9abd!important;
 }
 
 .ui-dialog {
@@ -965,7 +957,7 @@ body .ui-tooltip {
 .ui-state-highlight,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
-	background: #6e2878;
+	background: #0a9abd;
 	color: #ffffff;
 }
 .ui-state-highlight a,
@@ -1006,7 +998,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-disabled,
 .ui-widget-header .ui-state-disabled {
 	color:#4f535f !important;
-	background-color: #efeff3;
+	background-color: #0a9abd;
 }
 .ui-state-disabled .ui-icon {
 	filter:Alpha(Opacity=35); /* support: IE8 - See #6059 */
@@ -1022,13 +1014,8 @@ body .ui-tooltip {
 	border-radius: 2px;
 }
 .ui-state-default .ui-icon {
-	background: url("../images/assets/select-arrow-bottom.png") no-repeat center #efeff3;
-	border:1px solid #e0dfe3;
-}
-.ui-state-active .ui-icon,
-span[aria-expanded="true"] .ui-icon {
-	background: url("../images/assets/select-arrow-bottom-white.png") no-repeat center #6e2878;
-	border:1px solid #571d5f;
+	background: url("../images/assets/arrow-bottom.png") no-repeat center #0a9abd;
+	border:1px solid #0a9abd;
 }
 
 

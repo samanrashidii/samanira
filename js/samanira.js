@@ -62,9 +62,9 @@ $(window).load(function(){
 // Message Popup
 
 var MessagePopup = function(){
-  $('.message').addClass('shown');
+  $('.message').addClass('active');
   setTimeout(function(){
-    $('.message').removeClass('shown');
+    $('.message').removeClass('active');
   },5000);
 } 
 
@@ -124,7 +124,10 @@ $('form').validate({
         data: $(form).serialize(),
         success: function () {
             $('.contact_form :input').prop('disabled', true);
-            $('.message.success').fadeIn(700); 
+            $('.message.success').addClass('active'); 
+            setTimeout(function(){
+              $('.message.success').removeClass('active');
+            },5000);
         }
       });
       return false; // required to block normal submit since you used ajax
@@ -132,7 +135,6 @@ $('form').validate({
       $('.contact_form input[type="submit"]').prop('disabled', true);
       return false;
     }
-  }     
   }
 
 });
