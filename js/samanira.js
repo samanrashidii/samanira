@@ -15,18 +15,18 @@ $('.current-year').html(thisYear);
 
 var charLeft;
 
-$('.textarea-holder textarea').on('keyup load', function () {
+$('.textarea-word-tracker textarea').on('keyup load', function () {
   charLeft = 250 - $(this).val().length;
   if (charLeft < 0) {
       charLeft = 0;
   }
-  $(this).siblings().find('strong').text(charLeft);
+  $(this).siblings().find('span').text(charLeft);
 });
 
-$(window).load( function () {
-    $('.textarea-holder textarea').each( function () {
+$(window).load( function() {
+    $('.textarea-word-tracker textarea').each( function () {
         charLeft = 250 - $(this).val().length;
-        $(this).siblings().find('strong').text(charLeft);    
+        $(this).siblings().find('span').text(charLeft);    
     });
 });
 
@@ -138,7 +138,5 @@ $('form').validate({
   }
 
 });
-
-
 
 });
