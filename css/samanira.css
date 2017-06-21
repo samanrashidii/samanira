@@ -120,30 +120,6 @@ iframe{
 *******************/
 
 
-.form-field-holder{
-	position: relative;
-	width: 100%;
-}
-
-.form-field-holder .field-icon{
-	position: absolute;
-	top:50%;
-	right: 10px;
-	width: 32px;
-	height: 32px;
-	margin-top:-16px;
-	border:1px solid #121212;
-}
-
-.field-holder{
-	position: relative;
-	width: 100%;
-	overflow: hidden;
-	margin:15px 0;
-}
-
-.reverse-input{direction: rtl;}
-
 ::-webkit-input-placeholder{
 	font-family: 'Roboto';
     font-size:16px;
@@ -229,16 +205,6 @@ textarea{
 	border-radius: 2px;
 }
 
-.textarea-word-tracker{position: relative;}
-
-.textarea-word-tracker span{
-	position: absolute;
-	bottom:15px;
-	right:15px;
-	display: inline-block;
-	font-size: 15px;
-}
-
 label{
 	display: inline-block;
 	vertical-align: middle;
@@ -296,13 +262,6 @@ input[type="file"]{
 	z-index: 5;
 }
 
-input[type="password"],
-input[type="email"],
-input[type="tel"]{
-	direction: ltr !important;
-	text-align: left !important;
-}
-
 input.has-icon{padding-right: 40px;}
 input.datepicker{cursor: pointer;}
 
@@ -331,6 +290,40 @@ label.error{
 }
 
 /* -- _Classes in Form -- */
+
+.form-field-holder{
+	position: relative;
+	width: 100%;
+}
+
+.form-field-holder .field-icon{
+	position: absolute;
+	top:50%;
+	right: 10px;
+	width: 32px;
+	height: 32px;
+	margin-top:-16px;
+	border:1px solid #121212;
+}
+
+.field-holder{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin:15px 0;
+}
+
+.reverse-input{direction: rtl;}
+
+.textarea-word-tracker{position: relative;}
+
+.textarea-word-tracker span{
+	position: absolute;
+	bottom:15px;
+	right:15px;
+	display: inline-block;
+	font-size: 15px;
+}
 
 .samanira_secure{
 	height: 0 !important;
@@ -451,6 +444,8 @@ label.error{
 }
 
 .uploaded-photo-box img{display: block;}
+
+/* _Radio & _Checkbox */
 
 .checkbox-holder,
 .radio-holder{
