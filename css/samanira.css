@@ -28,6 +28,8 @@ Border-Radius = 2px;
 ****** #MAIN ******
 *******************/
 
+/* -- _Main Styles -- */
+
 *,
 *::after,
 *::before{
@@ -537,6 +539,8 @@ label.error{
 ****** #BUTTONS ******
 **********************/
 
+/* -- _Main Styles -- */
+
 .button-holder{
 	width: 100%;
 	text-align:center;
@@ -669,6 +673,8 @@ input[type="submit"]:active{
 ****** #FRAMES ******
 *********************/
 
+/* -- _Main Styles -- */
+
 #wrapper{
 	position: relative;
 	min-width: 320px;
@@ -717,6 +723,8 @@ input[type="submit"]:active{
 /********************
 ****** #COMMON ******
 *********************/
+
+/* -- _Main Styles -- */
 
 .auto-width{width: auto;}
 .full-width{width: 100% !important;}
@@ -1024,6 +1032,8 @@ input[type="submit"]:active{
 /*********************
 ****** #CLASSES ******
 **********************/
+
+/* -- _Schema -- */
 
 .schema-item{
 	display: block;
@@ -1467,6 +1477,8 @@ a.close{
 ****** #TABLES ******
 *********************/
 
+/* -- _Main Styles -- */
+
 .table{width: 100%;}
 
 .table.scrollable{overflow-x:auto;}
@@ -1538,6 +1550,8 @@ a.close{
 /********************
 ****** #LAYOUT ******
 *********************/
+
+/* -- _Main Styles -- */
 
 .content{padding:30px 20px;}
 
