@@ -20,13 +20,13 @@ $('.textarea-word-tracker textarea').on('keyup load', function () {
   if (charLeft < 0) {
       charLeft = 0;
   }
-  $(this).siblings().find('span').text(charLeft);
+  $(this).siblings('span').text(charLeft);
 });
 
 $(window).load( function() {
     $('.textarea-word-tracker textarea').each( function () {
         charLeft = 250 - $(this).val().length;
-        $(this).siblings().find('span').text(charLeft);    
+        $(this).siblings('span').text(charLeft);    
     });
 });
 
