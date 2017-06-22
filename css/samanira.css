@@ -339,11 +339,8 @@ label.error{
 /* _Upload Button */
 
 .upload-bttn{
-	position: absolute;
-	top:0;
-	right: 0;
 	display: inline-block;
-	width: 160px;
+	min-width: 120px;
 	height: 51px;
 	line-height: 51px;
 	overflow: hidden;
@@ -374,11 +371,18 @@ label.error{
 	position: relative;
 	display: inline-block;
 	min-width: 120px;
+	margin:5px;
 	background-color: #f7f7f9;
 	border-radius: 2px;
 }
 
 .uploaded-photo-box img{display: block;}
+
+.uploaded-photo-box a.remove{
+	-webkit-box-shadow: 0 0 4px #aaaaaa;
+	-moz-box-shadow: 0 0 4px #aaaaaa;
+	box-shadow: 0 0 4px #aaaaaa;
+}
 
 /* _Radio & _Checkbox */
 
