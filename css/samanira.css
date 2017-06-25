@@ -493,9 +493,9 @@ label.error{
 	font-size: 16px;
 	color:#ffffff;
 	text-align: center;
-	padding:10px 20px;
+	padding:10px;
 	background-color: #121212;
-	border:2px solid #121212;
+	border:2px solid #ffffff;
 	border-radius: 2px;
 	-webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
@@ -505,7 +505,6 @@ label.error{
 .bttn:hover{
 	color:#121212;
 	background-color: #ffffff;
-	border-color: #ffffff;
 }
 
 .bttn.white{
@@ -540,7 +539,7 @@ label.error{
 .bttn.site:hover{
 	color:#0a9abd;
 	background-color: #ffffff;
-	border-color: #ffffff;
+	border-color: #0a9abd;
 }
 
 .bttn.site-2{
@@ -552,24 +551,25 @@ label.error{
 .bttn.site-2:hover{
 	color:#f55757;
 	background-color: #ffffff;
-	border-color: #ffffff;
+	border-color: #f55757;
 }
 
 .bttn.has-icon{
-	background-position: 12px center;
-    padding: 10px 15px 10px 37px;
+	text-align: left;
+	background-position: 13px center;
+    padding: 10px 15px 10px 43px;
 }
 
 .bttn.small{
 	min-width: 120px;
 	font-size: 14px;
-	padding:8px 15px;
+	padding:8px 5px;
 }
 
 .bttn.large{
 	min-width: 180px;
 	font-size: 18px;
-	padding:12px 22px;
+	padding:12px 10px;
 }
 
 .bttn:active,
