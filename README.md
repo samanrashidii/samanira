@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://www.samanrashidi.com/samanira">
-    <img src="http://samanrashidi.com/images/samanira.png" width=150 height=104>
+    <img src="http://samanrashidi.com/images/samanira.png" width=200 height=138>
   </a>
 
   <h3 align="center">SamanirA</h3>
@@ -45,4 +45,4 @@ Code and documentation copyright 2016-2017 SamanirA.
 
 ## Did you like SamanirA?
 
-Give us one star :)
+Give us one star :)2
