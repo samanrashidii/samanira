@@ -42,3 +42,7 @@ You can find the full documentation [here](http://www.samanrashidi.com/samanira)
 ## Copyright and license
 
 Code and documentation copyright 2016-2017 SamanirA.
+
+## Did you like SamanirA?
+
+Give us one star :)
