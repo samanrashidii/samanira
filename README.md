@@ -7,7 +7,9 @@
 
   <p align="center">
     an easy HTML / CSS / JS framework for "Front-end Developers" who wants to quickly build a project from 0% to 100% without wasting time on defining css classes or some javascript functions and plugins.
-    <br>
+    <br />
+    <br />
+    <br />
     <a href="http://www.samanrashidi.com/samanira"><strong>Read Full Documentation</strong></a>
   </p>
 </p>
