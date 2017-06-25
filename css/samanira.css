@@ -489,11 +489,11 @@ label.error{
 .bttn{
 	position: relative;
 	display: inline-block;
-	min-width: 160px;
+	min-width: 150px;
 	font-size: 16px;
 	color:#ffffff;
 	text-align: center;
-	padding:12px 20px;
+	padding:10px 20px;
 	background-color: #121212;
 	border:2px solid #121212;
 	border-radius: 2px;
@@ -561,15 +561,15 @@ label.error{
 }
 
 .bttn.small{
-	min-width: 100px;
+	min-width: 120px;
 	font-size: 14px;
-	padding:6px 15px;
+	padding:8px 15px;
 }
 
 .bttn.large{
-	min-width: 275px;
+	min-width: 180px;
 	font-size: 18px;
-	padding:18px 25px;
+	padding:12px 22px;
 }
 
 .bttn:active,
