@@ -486,18 +486,6 @@ label.error{
 .button-holder a,
 .button-holder input{margin:0 5px;}
 
-a.remove{
-	position: absolute;
-    top: 6px;
-    right: 6px;
-    display: block;
-    width: 28px;
-    height: 28px;
-    background: url('../images/assets/remove.png') no-repeat center center #ffffff;
-    border-radius: 2px;
-    z-index: 6;
-}
-
 .bttn{
 	position: relative;
 	display: inline-block;
@@ -555,9 +543,27 @@ a.remove{
 	border-color: #ffffff;
 }
 
+.bttn.site-2{
+	color:#ffffff;
+	background-color: #f55757;
+	border-color: #f55757;
+}
+
+.bttn.site-2:hover{
+	color:#f55757;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
 .bttn.has-icon{
 	background-position: 12px center;
     padding: 10px 15px 10px 37px;
+}
+
+.bttn.small{
+	min-width: 100px;
+	font-size: 14px;
+	padding:6px 15px;
 }
 
 .bttn.large{
@@ -568,10 +574,12 @@ a.remove{
 
 .bttn:active,
 input[type="submit"]:active{
-	-webkit-transform:translateY(2px);
-	-moz-transform:translateY(2px);
-	transform:translateY(2px);
+	-webkit-transform:translateY(1px);
+	-moz-transform:translateY(1px);
+	transform:translateY(1px);
 }
+
+/* -- _Switch -- */
 
 .switch{
 	display: block;
@@ -582,8 +590,10 @@ input[type="submit"]:active{
 
 .switch.on{background-image: url('../images/icons/switch-on.png');}
 
+/* -- _Nav Toggle -- */
+
 .nav-toggle{
-    position: absolute;
+    position: fixed;
     left: 30px;
     top: 30px;
     display: none;
@@ -604,6 +614,30 @@ input[type="submit"]:active{
 
 .nav-toggle span:last-child{margin-bottom: 0;}
 .nav-toggle.active span{background-color: #0a9abd;}
+
+/* -- _Remove & Close -- */
+
+a.remove{
+	position: absolute;
+    top: 6px;
+    right: 6px;
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url('../images/assets/remove.png') no-repeat center center #ffffff;
+    border-radius: 2px;
+    z-index: 6;
+}
+
+a.close{
+	position: absolute;
+	top:10px;
+	left:10px;
+	width: 10px;
+	height: 10px;
+	background: url('../images/assets/close.png') no-repeat center;
+	z-index: 10;
+}
 
 /********************
 ****** #FRAMES ******
@@ -1012,16 +1046,6 @@ input[type="submit"]:active{
 	vertical-align: middle;
 	text-align: center;
 	padding:20px;
-}
-
-a.close{
-	position: absolute;
-	top:10px;
-	left:10px;
-	width: 10px;
-	height: 10px;
-	background: url('../images/assets/close.png') no-repeat center;
-	z-index: 10;
 }
 
 /* -- _List Items -- */
