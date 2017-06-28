@@ -1474,6 +1474,10 @@ a.close{
 
 .table tr.active td{background-color: #f7f7f9;}
 
+/* Responsive Tables are in media codes */
+
+/* -- _Table Filter -- */
+
 .table-filter{
 	font-family: 'Roboto-Medium';
 	padding-right: 15px;
@@ -1485,6 +1489,8 @@ a.close{
 }
 
 .table-filter.active{background: url('../images/assets/arrow-up-black.png') no-repeat right center;}
+
+/* -- _Div Table -- */
 
 .div-table .row{
 	display: table;
