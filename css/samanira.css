@@ -588,14 +588,14 @@ input[type="submit"]:active{
 	background: url('../images/icons/switch.png') no-repeat center;
 }
 
-.switch.on{background-image: url('../images/icons/switch-on.png');}
+.switch.active{background-image: url('../images/icons/switch-on.png');}
 
 /* -- _Nav Toggle -- */
 
 .nav-toggle{
     position: fixed;
-    left: 30px;
     top: 30px;
+    left: 30px;
     display: none;
     width: 30px;
     height: 21px;
@@ -620,7 +620,7 @@ input[type="submit"]:active{
 a.remove{
 	position: absolute;
     top: 6px;
-    right: 6px;
+    left: 6px;
     display: block;
     width: 28px;
     height: 28px;
@@ -633,6 +633,7 @@ a.close{
 	position: absolute;
 	top:10px;
 	left:10px;
+	display: block;
 	width: 10px;
 	height: 10px;
 	background: url('../images/assets/close.png') no-repeat center;
@@ -696,6 +697,11 @@ a.close{
 
 /* -- _Main Styles -- */
 
+.white-bg{background-color: #ffffff;}
+.black-bg{background-color: #000000;}
+.site-bg{background-color: #0a9abd;}
+.site-2-bg{background-color: #f55757;}
+
 .auto-width{width: auto;}
 .full-width{width: 100% !important;}
 .full-height{height: 100% !important;}
@@ -736,8 +742,8 @@ a.close{
 .font-type-medium{font-family: 'Roboto-Medium';}
 .font-type-different{font-family: 'Iran';}
 
-.site-color{color:#121212 !important;}
-.site-color-2{color:#0a9abd !important;}
+.site-color{color:#0a9abd !important;}
+.site-color-2{color:#f55757 !important;}
 .blue-color{color:#368098 !important;}
 .green-color{color:#61bd61 !important;}
 .purple-color{color:#843698 !important;}

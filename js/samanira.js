@@ -46,7 +46,31 @@ $(window).load(function(){
   for(var i = 1; i <= liNumber; i++){
     $('.number-bullet li:nth-child('+i+')').attr('list-number', i+' -');
   }
-});  
+});
+
+// Switch Button
+
+$('.switch').on('click', function(){
+  $(this).toggleClass('active');
+});
+
+// Nav Toggle
+
+$('.nav-toggle').on('click', function(){
+  $(this).toggleClass('active');
+});
+
+// Remove Button
+
+$('a.remove').on('click', function(){
+  $(this).parent().remove();
+});
+
+// Remove Button
+
+$('a.close').on('click', function(){
+  $(this).parent().hide();
+});
 
 // Responsive Table
 
