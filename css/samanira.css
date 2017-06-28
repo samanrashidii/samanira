@@ -489,7 +489,7 @@ label.error{
 .bttn{
 	position: relative;
 	display: inline-block;
-	min-width: 150px;
+	min-width: 155px;
 	font-size: 16px;
 	color:#ffffff;
 	text-align: center;
@@ -1501,8 +1501,10 @@ a.close{
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
-	padding:0 0 0 10px;
+	padding:0 10px;
 }
+
+/* -- _Table Columns -- */
 
 .column-5{width: 5%;}
 .column-10{width: 10%;}
@@ -1793,21 +1795,7 @@ a.close{
 
 }
 
-						/*            Min 540 Screen End        */						
-
-
-						/*            1200 Screen Start        */
-
-@media only screen and (max-width: 1200px){
-
-	.upload-image-inner-box span{
-		width: 200px;
-		margin-left: -100px;
-	}
-
-}
-
-						/*            1200 Screen End        */
+						/*            Min 540 Screen End        */
 
 						/*            980 Screen Start        */
 
@@ -1854,13 +1842,13 @@ a.close{
 	.bttn{
 		min-width: 120px;
 		font-size: 14px;
-		padding:8px 14px;
+		padding:8px;
 	}
 
 	.bttn.large{
-		min-width: 200px;
+		min-width: 150px;
 		font-size: 16px;
-		padding:12px 18px;
+		padding:10px;
 	}
 
 	.font-size-vlarge{font-size: 25px;}
@@ -2015,16 +2003,6 @@ a.close{
 }
 
 						/*            980 Screen End        */
-
-						/*            860 Screen Start        */
-
-@media only screen and (max-width:860px){
-
-
-
-}
-
-						/*            860 Screen End        */
 
 						/*            740 Screen Start        */
 
@@ -2260,13 +2238,6 @@ a.close{
 		display: block;
 		text-align: center;
 		padding-top:20px;
-	}
-
-	.inline-upload{padding-top:90px;}
-
-	.file-name{
-		top:59px;
-		left:0;
 	}
 
 	.breadcrumb ul{padding:3px 18px;}
