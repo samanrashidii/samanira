@@ -940,6 +940,8 @@ a.close{
 	margin-bottom: 0 !important;
 }
 
+.has-auto-margin{margin: auto !important;}
+
 .has-large-minus-margin{margin-top: -40px !important;}
 .has-minus-margin{margin-top: -30px !important;}
 .has-medium-minus-margin{margin-top: -20px !important;}
