@@ -593,15 +593,15 @@ input[type="submit"]:active{
 /* -- _Nav Toggle -- */
 
 .nav-toggle{
-    position: fixed;
-    top: 30px;
-    left: 30px;
-    display: none;
     width: 30px;
     height: 21px;
     text-align: center;
+    margin-top:10px;
     cursor: pointer;
     z-index: 1000;
+    -webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
 }
 
 .nav-toggle span{
@@ -610,10 +610,17 @@ input[type="submit"]:active{
 	height: 3px;
 	margin-bottom: 6px;
 	background-color: #121212;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
 }
 
 .nav-toggle span:last-child{margin-bottom: 0;}
-.nav-toggle.active span{background-color: #0a9abd;}
+.nav-toggle.active{margin-top:13px;}
+.nav-toggle.active span{
+	margin-bottom: 3px;
+	background-color: #0a9abd;
+}
 
 /* -- _Remove & Close -- */
 
