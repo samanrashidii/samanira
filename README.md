@@ -6,7 +6,7 @@
   <h3 align="center">SamanirA</h3>
 
   <p align="center">
-    an easy HTML / CSS / JS framework for "Front-end Developers" who wants to quickly build a project from 0% to 100% without wasting time on defining css classes or some javascript functions and plugins.
+    an easy HTML / CSS / JS framework for "Front-end Developers" who wants to quickly build a project from 0% to 100% without wasting time on defining css classes or some javascript functions.
     <br />
     <br />
     <br />
@@ -45,4 +45,4 @@ Code and documentation copyright 2016-2017 SamanirA.
 
 ## Did you like SamanirA?
 
-Give us one star :)2
+Give us one star :)
