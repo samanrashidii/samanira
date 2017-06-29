@@ -1225,22 +1225,19 @@ a.close{
 
 .message span{
 	display: block;
+	color:#ffffff;
 	padding:2px 0 0 25px;
+	background-repeat: no-repeat;
+	background-position: left center;
 }
 
 .message.active{top:15px;}
 
 .message.success{background-color: #61bd61;}
-.message.success span{
-	color:#ffffff;
-	background: url('../images/icons/success.png') no-repeat left center;
-}
+.message.success span{background-image: url('../images/icons/success.png');}
 
 .message.fail{background-color: #e56262;}
-.message.fail span{
-	color:#ffffff;
-	background: url('../images/icons/error.png') no-repeat left center;
-}
+.message.fail span{background-image: url('../images/icons/error.png');}
 
 /* -- _Star Rating -- */
 
