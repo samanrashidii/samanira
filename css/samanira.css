@@ -1114,7 +1114,6 @@ a.close{
 .tick-bullet li::before{
 	content:'';
 	display: inline-block;
-	vertical-align: middle;
 	width: 14px;
 	height: 11px;
 	margin-right: 15px;
