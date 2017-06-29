@@ -66,10 +66,31 @@ $('a.remove').on('click', function(){
   $(this).parent().remove();
 });
 
-// Remove Button
+// Close Button
 
-$('a.close').on('click', function(){
+$('a.close:not(.overlay-close)').on('click', function(){
   $(this).parent().hide();
+});
+
+// Overlay
+
+$('.overlay-bttn').on('click', function(){
+  $('.overlay').toggleClass('active');
+  $('body').addClass('hidden-overflow');
+});
+
+$('a.overlay-close').on('click', function(){
+  $(this).parents('.overlay').removeClass('active');
+  $('body').removeClass('hidden-overflow');
+});
+
+$('.overlay').on('click', function(){
+  $(this).removeClass('active');
+  $('body').removeClass('hidden-overflow');
+});
+
+$('.inner-overlay-box').on('click', function(e){
+  e.stopPropagation();
 });
 
 // Responsive Table
