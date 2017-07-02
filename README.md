@@ -18,7 +18,7 @@
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? Please send us your report or request <a href="mailto:samanira@samanrashidi.com"><strong>Read Full Documentation</strong></a>
+Have a bug or a feature request? Please send us your <a href="mailto:samanira@samanrashidi.com"><strong>report or request</strong></a>.
 
 
 ## Documentation
