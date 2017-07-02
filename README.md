@@ -3,10 +3,8 @@
     <img src="http://samanrashidi.com/images/samanira.png" width=200 height=138>
   </a>
 
-  <h3 align="center">SamanirA</h3>
-
   <p align="center">
-    an easy HTML / CSS / JS framework for "Front-end Developers" who wants to quickly build a project from 0% to 100% without wasting time on defining css classes or some javascript functions.
+    SamanirA is an easy HTML / CSS / JS framework for "Front-end Developers" who wants to quickly build a project from 0% to 100% without wasting time on defining css classes or some javascript functions.
     <br />
     <br />
     <br />
