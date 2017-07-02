@@ -1961,6 +1961,8 @@ a.close{
 	.table.responsive td{
 		position: relative;
 		display: block;
+		font-size: 14px;
+		color:#121212;
 		text-align: right !important;
 		padding-right: 120px;
 	}
@@ -1973,11 +1975,9 @@ a.close{
 		display: block;
 		width: 100px;
 		height: 100%;
-		font-size: 14px;
 	    color: #ffffff;
 	    text-align: center;
-		color:#ffffff;
-		padding:12px 5px 0 5px;
+		padding:8px 5px 0 5px;
 		background-color: #121212;
 	}
 
