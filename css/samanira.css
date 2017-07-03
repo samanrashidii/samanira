@@ -495,7 +495,6 @@ label.error{
 	text-align: center;
 	padding:10px;
 	background-color: #121212;
-	border:2px solid #ffffff;
 	border-radius: 2px;
 	-webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
@@ -510,48 +509,38 @@ label.error{
 .bttn.white{
 	color:#121212;
 	background-color: #ffffff;
-	border-color: #ffffff;
 }
 
 .bttn.white:hover{
 	color:#ffffff;
 	background-color: #121212;
-	border-color: #121212;
 }
 
-.bttn.black{
-	background-color: #000000;
-	border-color: #000000;
-}
+.bttn.black{background-color: #000000;}
 
 .bttn.black:hover{
 	color:#000000;
 	background-color: #ffffff;
-	border-color: #ffffff;
 }
 
 .bttn.site{
 	color:#ffffff;
 	background-color: #0a9abd;
-	border-color: #0a9abd;
 }
 
 .bttn.site:hover{
 	color:#0a9abd;
 	background-color: #ffffff;
-	border-color: #0a9abd;
 }
 
 .bttn.site-2{
 	color:#ffffff;
 	background-color: #f55757;
-	border-color: #f55757;
 }
 
 .bttn.site-2:hover{
 	color:#f55757;
 	background-color: #ffffff;
-	border-color: #f55757;
 }
 
 .bttn.has-icon{
