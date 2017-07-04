@@ -583,6 +583,7 @@ input[type="submit"]:active{
 /* -- _Nav Toggle -- */
 
 .nav-toggle{
+	display: none;
     width: 30px;
     height: 21px;
     text-align: center;
