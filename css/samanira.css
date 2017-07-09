@@ -1422,6 +1422,13 @@ a.close{
 
 .static-content p strong{font-family: 'Roboto-Medium' !important;}
 
+.static-content blockquote{
+	font-family: 'Roboto-Medium' !important;
+	font-size: 18px !important;
+	color: #000000 !important;
+	margin-top: 15px !important;
+}
+
 .static-content ul,
 .static-content ol{margin:5px 0 0 10px;}
 
@@ -2012,6 +2019,11 @@ a.close{
 	.static-content p{
 		font-size: 14px !important;
 		padding-top:10px !important;
+	}
+
+	.static-content blockquote{
+		font-size: 15px !important;
+		margin-top: 10px !important;
 	}
 
 	.double-quotes::before,
