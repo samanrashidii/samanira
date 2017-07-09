@@ -1875,6 +1875,15 @@ a.close{
 	.section-box.medium-padding{padding:7px;}
 	.section-box.small-padding{padding:4px;}
 
+	.half-box,
+	.right-side,
+	.left-side{
+		float: none !important;
+		width: 100% !important;
+	}
+
+	.half-half-box{width: 50%;}
+
 	.cl-1,
 	.cl-2,
 	.cl-3,
@@ -2230,6 +2239,11 @@ a.close{
 
 	select,
 	input[type="search"]{background-position-x:97%;}
+
+	.half-half-box{
+		float: none !important;
+		width: 100% !important;
+	}
 
 	.rspv.has-6-6-column > .section,
 	.rspv.has-4-4-4-column > .section{
