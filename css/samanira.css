@@ -707,7 +707,7 @@ a.close{
 .black-bg{background-color:#000000;}
 .white-bg{background-color:#ffffff;}
 
-.auto-width{width: auto;}
+.auto-width{width: auto !important;}
 .full-width{width: 100% !important;}
 .full-height{height: 100% !important;}
 
