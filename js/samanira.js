@@ -79,7 +79,7 @@ $('.overlay-bttn').on('click', function(){
   $('body').addClass('hidden-overflow');
 });
 
-$('a.overlay-close').on('click', function(){
+$('a.close.overlay-close').on('click', function(){
   $(this).parents('.overlay').removeClass('active');
   $('body').removeClass('hidden-overflow');
 });
