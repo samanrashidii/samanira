@@ -546,6 +546,7 @@ label.error{
 
 .bttn.has-icon{
 	text-align: left;
+	background-repeat: no-repeat !important; 
 	background-position: 13px center;
     padding: 10px 15px 10px 43px;
 }
@@ -589,7 +590,6 @@ input[type="submit"]:active{
     text-align: center;
     margin-top:10px;
     cursor: pointer;
-    z-index: 1000;
     -webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
