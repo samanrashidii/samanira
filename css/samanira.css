@@ -2209,11 +2209,11 @@ a.close{
 	.circle-bullet li::before{
 		width: 7px;
 		height: 7px;
-		margin-left: 8px;
+		margin-right: 8px;
 	}
 
 	.number-bullet li::before,
-	.tick-bullet li::before{margin-left: 8px;}
+	.tick-bullet li::before{margin-right: 8px;}
 
 	.tick-bullet li{font-size: 14px;}
 
