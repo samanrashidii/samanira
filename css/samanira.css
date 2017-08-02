@@ -1660,82 +1660,82 @@ a.close{
 /* -- _Has Columns -- */
 
 .has-11-1-column > .section{
-	width: 81.5%;
+	width: 15%;
 	margin-left: 3.5%;
 }
 
 .has-11-1-column > .section:nth-child(2n+1){
-	width: 15%;
-	margin-left: 0;
-}
-
-.has-1-11-column > .section{
-	width: 15%;
-	margin-left: 3.5%;
-}
-
-.has-1-11-column > .section:nth-child(2n+1){
 	width: 81.5%;
 	margin-left: 0;
 }
 
+.has-1-11-column > .section{
+	width: 81.5%;
+	margin-left: 3.5%;
+}
+
+.has-1-11-column > .section:nth-child(2n+1){
+	width: 15%;
+	margin-left: 0;
+}
+
 .has-10-2-column > .section{
-	width: 78%;
+	width: 20%;
 	margin-left: 2%;
 }
 
 .has-10-2-column > .section:nth-child(2n+1){
-	width: 20%;
-	margin-left: 0;
-}
-
-.has-2-10-column > .section{
-	width: 20%;
-	margin-left: 2%;
-}
-
-.has-2-10-column > .section:nth-child(2n+1){
 	width: 78%;
 	margin-left: 0;
 }
 
+.has-2-10-column > .section{
+	width: 78%;
+	margin-left: 2%;
+}
+
+.has-2-10-column > .section:nth-child(2n+1){
+	width: 20%;
+	margin-left: 0;
+}
+
 .has-9-3-column > .section{
-	width: 72.5%;
+	width: 25%;
 	margin-left: 2.5%;
 }
 
 .has-9-3-column > .section:nth-child(2n+1){
-	width: 25%;
-	margin-left: 0;
-}
-
-.has-3-9-column > .section{
-	width: 25%;
-	margin-left: 2.5%;
-}
-
-.has-3-9-column > .section:nth-child(2n+1){
 	width: 72.5%;
 	margin-left: 0;
 }
 
+.has-3-9-column > .section{
+	width: 72.5%;
+	margin-left: 2.5%;
+}
+
+.has-3-9-column > .section:nth-child(2n+1){
+	width: 25%;
+	margin-left: 0;
+}
+
 .has-8-4-column > .section{
-	width: 62%;
+	width: 35%;
 	margin-left: 3%;
 }
 
 .has-8-4-column > .section:nth-child(2n+1){
-	width: 35%;
+	width: 62%;
 	margin-left: 0;
 }
 
 .has-4-8-column > .section{
-	width: 35%;
+	width: 62%;
 	margin-left: 3%;
 }
 
 .has-4-8-column > .section:nth-child(2n+1){
-	width: 62%;
+	width: 35%;
 	margin-left: 0;
 }
 
