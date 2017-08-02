@@ -1424,6 +1424,7 @@ a.close{
 }
 
 .static-content p strong{font-family: 'Roboto-Medium' !important;}
+.static-content p a{color:#0a9abd !important;}
 
 .static-content blockquote{
 	font-family: 'Roboto-Medium' !important;
