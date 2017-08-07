@@ -1,17 +1,18 @@
 $(document).ready(function(){
+// ** Document Ready Started **
 
-// Test Function
+// Test Function //
 
 var Testing = function(testText){
   console.log(testText);
 }
 
-// Get the Current Year
+// Get the Current Year //
 
 var thisYear = new Date().getFullYear();
 $('.current-year').html(thisYear);
 
-// Textarea Character Left
+// Textarea Character Left //
 
 var charLeft;
 
@@ -24,13 +25,13 @@ $('.textarea-word-tracker textarea').on('keyup load', function () {
 });
 
 $(window).load( function() {
-    $('.textarea-word-tracker textarea').each( function () {
-      charLeft = 250 - $(this).val().length;
-      $(this).siblings('span').text(charLeft);    
-    });
+  $('.textarea-word-tracker textarea').each( function () {
+    charLeft = 250 - $(this).val().length;
+    $(this).siblings('span').text(charLeft);    
+  });
 });
 
-// Static Content ol li number
+// Static Content ol li number //
 
 $(window).load(function(){
   var StaticliNumber = $('.static-content ol li').length;
@@ -39,7 +40,7 @@ $(window).load(function(){
   }
 });
 
-// Number Bullet
+// Number Bullet //
 
 $(window).load(function(){
   var liNumber = $('.number-bullet li').length;
@@ -48,31 +49,31 @@ $(window).load(function(){
   }
 });
 
-// Switch Button
+// Switch Button //
 
 $('.switch').on('click', function(){
   $(this).toggleClass('active');
 });
 
-// Nav Toggle
+// Nav Toggle //
 
 $('.nav-toggle').on('click', function(){
   $(this).toggleClass('active');
 });
 
-// Remove Button
+// Remove Button //
 
 $('a.remove').on('click', function(){
   $(this).parent().remove();
 });
 
-// Close Button
+// Close Button //
 
 $('a.close:not(.overlay-close)').on('click', function(){
   $(this).parent().hide();
 });
 
-// Overlay
+// Overlay //
 
 $('.overlay-bttn').on('click', function(){
   $('.overlay').toggleClass('active');
@@ -93,7 +94,7 @@ $('.inner-overlay-box').on('click', function(e){
   e.stopPropagation();
 });
 
-// Responsive Table
+// Responsive Table //
 
 $(window).load(function(){
   $('.table.responsive').each(function(){  
@@ -104,7 +105,7 @@ $(window).load(function(){
   });
 });
 
-// Message Popup
+// Message Popup //
 
 var MessagePopup = function(){
   $('.message').addClass('active');
@@ -113,7 +114,7 @@ var MessagePopup = function(){
   },5000);
 } 
 
-// Select Menu
+// Select Menu //
 
 if($(window).width() > 980){
   $(function() {
@@ -121,7 +122,7 @@ if($(window).width() > 980){
   });
 }
 
-// Form Validate
+// Form Validate //
 
 $('.number-field').numeric();
 
@@ -184,45 +185,45 @@ $('form').validate({
 
 });
 
-// Upload Photo(s)
+// Upload Photo(s) //
 
 var fileUploaded = [];
 var gI = 0;
 window.onload = function(){   
   if(window.File && window.FileList && window.FileReader){
-      $('#upload_bttn').on("change", function(event) {
-          var files = event.target.files;
-          if(files.length <= 10){
-            for(var i = 0; i < files.length; i++){
-              var file = files[i];
-              fileUploaded.push(file);
-              if(file.type.match('image.*')){
-                  if(this.files[0].size < 2097152){    
-                  var picReader = new FileReader();
-                  picReader.addEventListener("load",function(event){
-                      var picFile = event.target;
-                      if($('#uploaded-photos').children().length < 10){
-                         $('#uploaded-photos').append('<div class="uploaded-photo-box"><img src="' + picFile.result + '" /><a class="remove" href="javascript:void(0)" data-attr="rm_'+ gI++ +'">&nbsp;</a></div>'); 
-                      }            
-                  });
-                  picReader.readAsDataURL(file);
-                  }else{
-                    alert("Image Size is too big. Maximum size is 2MB.");
-                    $(this).val("");
-                  }
+    $('#upload_bttn').on("change", function(event) {
+        var files = event.target.files;
+        if(files.length <= 10){
+          for(var i = 0; i < files.length; i++){
+            var file = files[i];
+            fileUploaded.push(file);
+            if(file.type.match('image.*')){
+              if(this.files[0].size < 2097152){    
+              var picReader = new FileReader();
+              picReader.addEventListener("load",function(event){
+                var picFile = event.target;
+                if($('#uploaded-photos').children().length < 10){
+                   $('#uploaded-photos').append('<div class="uploaded-photo-box"><img src="' + picFile.result + '" /><a class="remove" href="javascript:void(0)" data-attr="rm_'+ gI++ +'">&nbsp;</a></div>'); 
+                }            
+              });
+              picReader.readAsDataURL(file);
               }else{
-                alert("You can only upload image file.");
+                alert("Image Size is too big. Maximum size is 2MB.");
                 $(this).val("");
               }
+            }else{
+              alert("You can only upload image file.");
+              $(this).val("");
             }
           }
+        }
       });
   } else{
     console.log("Your browser does not support File API");
   }
 }
 
-// Uploaded Photo Remove
+// Uploaded Photo Remove //
 
 $(document).on('click', '#uploaded-photos a.remove', function(){
   var removeID = $(this).data('attr');
@@ -231,4 +232,5 @@ $(document).on('click', '#uploaded-photos a.remove', function(){
   fileUploaded.splice(removeID[1],1);
 });
 
+// ** Document Ready Finished **
 });
