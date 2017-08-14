@@ -1781,6 +1781,15 @@ a.close{
 
 .has-3-3-3-3-column > .section:nth-child(4n+1){margin-left: 0;}
 
+/* if you want 5 column boxes with 2.4% width */
+
+.has-5x2o4-column > .section{
+	width: 18%;
+	margin-left: 2.5%;
+}
+
+.has-5x2o4-column > .section:nth-child(5n+1){margin-left: 0;}
+
 .has-2-2-2-2-2-2-column > .section{
 	width: 15%;
 	margin-left: 2%;
@@ -1929,15 +1938,18 @@ a.close{
 	}
 
 	.has-3-3-3-3-column > .section,
+	.has-5x2o4-column > .section,
 	.has-2-2-2-2-2-2-column > .section{
 		width: 48.75%;
 		margin-left: 2.5%;
 	}
 
 	.has-3-3-3-3-column > .section:nth-child(4n+1){margin-left: 2.5%;}
+	.has-5x2o4-column > .section:nth-child(5n+1){margin-left: 2.5%;}
 	.has-2-2-2-2-2-2-column > .section:nth-child(6n+1){margin-left: 2.5%;}
 
 	.has-3-3-3-3-column > .section:nth-child(2n+1),
+	.has-5x2o4-column > .section:nth-child(2n+1),
 	.has-2-2-2-2-2-2-column > .section:nth-child(2n+1){margin-left: 0;}
 
 	.rspv.has-6-6-column > .section,
@@ -2235,6 +2247,7 @@ a.close{
 @media only screen and (max-width:640px){
 
 	.has-3-3-3-3-column > .section,
+	.has-5x2o4-column > .section,
 	.has-2-2-2-2-2-2-column > .section{
 		float: none !important;
 		width: 100% !important;
