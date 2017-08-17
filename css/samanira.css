@@ -712,6 +712,9 @@ a.close{
 .black-bg{background-color:#000000;}
 .white-bg{background-color:#ffffff;}
 
+.fixed-attachment{background-attachment: fixed !important;}
+.scroll-attachment{background-attachment: scroll !important;}
+
 .auto-width{width: auto !important;}
 .full-width{width: 100% !important;}
 .full-height{height: 100% !important;}
@@ -1876,6 +1879,8 @@ a.close{
 		font-size: 16px;
 		padding:10px;
 	}
+
+	.fixed-attachment{background-attachment: scroll !important;}
 
 	.font-size-vlarge{font-size: 25px;}
 	.font-size-xxlarge{font-size: 23px;}
