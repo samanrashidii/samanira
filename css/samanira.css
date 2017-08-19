@@ -1826,7 +1826,7 @@ a.close{
 
 						/*            Min 540 Screen End        */
 
-						/*            980 Screen Start        */
+						/*            Max 980 Screen Start        */
 
 @media only screen and (max-width:980px){
 
@@ -2054,9 +2054,9 @@ a.close{
 	
 }
 
-						/*            980 Screen End        */
+						/*            Max 980 Screen End        */
 
-						/*            740 Screen Start        */
+						/*            Max 740 Screen Start        */
 
 @media only screen and (max-width:740px){
 
@@ -2246,9 +2246,9 @@ a.close{
 
 }
 
-						/*            740 Screen End        */	
+						/*            Max 740 Screen End        */	
 
-						/*            640 Screen Start        */
+						/*            Max 640 Screen Start        */
 
 @media only screen and (max-width:640px){
 
@@ -2269,9 +2269,9 @@ a.close{
 
 }
 
-						/*            640 Screen End        */											
+						/*            Max 640 Screen End        */											
 
-						/*            560 Screen Start        */						
+						/*            Max 560 Screen Start        */						
 
 @media only screen and (max-width: 560px){
 
@@ -2326,9 +2326,9 @@ a.close{
 
 }
 
-						/*            560 Screen End        */
+						/*            Max 560 Screen End        */
 
-						/*            400 Screen Start        */
+						/*            Max 400 Screen Start        */
 
 @media only screen and (max-width:400px){
 
@@ -2340,4 +2340,4 @@ a.close{
 
 }
 
-						/*            400 Screen End        */
+						/*            Max 400 Screen End        */
