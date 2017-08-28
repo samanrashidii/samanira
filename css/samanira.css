@@ -1666,17 +1666,17 @@ a.close{
 
 .has-11-1-column > .section{
 	width: 15%;
-	margin-left: 3.5%;
+	margin-left: 2%;
 }
 
 .has-11-1-column > .section:nth-child(2n+1){
-	width: 81.5%;
+	width: 83%;
 	margin-left: 0;
 }
 
 .has-1-11-column > .section{
-	width: 81.5%;
-	margin-left: 3.5%;
+	width: 83%;
+	margin-left: 2%;
 }
 
 .has-1-11-column > .section:nth-child(2n+1){
