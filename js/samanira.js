@@ -76,11 +76,12 @@ $('a.close:not(.overlay-close)').on('click', function(){
 // Overlay //
 
 $('.overlay-bttn').on('click', function(){
-  $('.overlay').toggleClass('active');
+  var bttnID = $(this).attr('href');
+  $(bttnID).toggleClass('active');
   $('body').addClass('hidden-overflow');
 });
 
-$('a.close.overlay-close').on('click', function(){
+$('.overlay-close').on('click', function(){
   $(this).parents('.overlay').removeClass('active');
   $('body').removeClass('hidden-overflow');
 });
