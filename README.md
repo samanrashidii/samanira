@@ -36,6 +36,8 @@ You can find the full documentation [here](http://www.samanrashidi.com/samanira)
 - <http://www.samirasalimian.com>
 - <http://www.github.com/samirasaly>
 
+Follow us on : <http://www.instagram.com/samaniraa>
+
 
 ## Copyright and license
 
