@@ -23,31 +23,3 @@
 	font-weight: normal;
   	font-style: normal;
 }
-
-/* Right to Left Fonts */
-
-@font-face{
-	font-family:'Iran';
-	src: url('../fonts/Iran.eot');
-	src: url('../fonts/Iran.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/Iran.ttf') format('truetype'),
-		 url('../fonts/Iran.otf') format('otf'),
-		 url('../fonts/Iran.svg') format('svg'),
-		 url('../fonts/Iran.woff2') format('woff2'),
-		 url('../fonts/Iran.woff') format('woff');
-	font-weight: normal;
-  	font-style: normal;
-}
-
-@font-face{
-	font-family:'Iran-Medium';
-	src: url('../fonts/Iran-Medium.eot');
-	src: url('../fonts/Iran-Medium.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/Iran-Medium.ttf') format('truetype'),
-		 url('../fonts/Iran-Medium.otf') format('otf'),
-		 url('../fonts/Iran-Medium.svg') format('svg'),
-		 url('../fonts/Iran-Medium.woff2') format('woff2'),
-		 url('../fonts/Iran-Medium.woff') format('woff');
-	font-weight: normal;
-  	font-style: normal;
-}
