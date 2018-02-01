@@ -706,7 +706,7 @@ a.close{
 
 /* -- _Page Styles -- */
 
-.no-bg{background-color: transparent !important;}
+.transparent-bg{background-color: transparent !important;}
 .site-bg{background-color: #0a9abd;}
 .site-2-bg{background-color: #f55757;}
 .blue-bg{background-color:#368098;}
