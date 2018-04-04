@@ -63,32 +63,51 @@ $('.nav-toggle').on('click', function(){
 
 // Remove Button //
 
-$('a.remove').on('click', function(){
+$('a.remove:not(.different-remove)').on('click', function(){
   $(this).parent().remove();
 });
 
 // Close Button //
 
-$('a.close:not(.overlay-close)').on('click', function(){
+$('a.close:not(.overlay-close):not(.different-close)').on('click', function(){
   $(this).parent().hide();
 });
 
 // Overlay //
 
+function remove_hash_from_url(){
+  var uri = window.location.toString();
+  if (uri.indexOf("#") > 0) {
+      var clean_uri = uri.substring(0, uri.indexOf("#"));
+      window.history.replaceState({}, document.title, clean_uri);
+  }
+}
+
+var locationHashURL = window.location.hash.substr(1);
+$('#' + locationHashURL).addClass('active');
+
 $('.overlay-bttn').on('click', function(){
-  var bttnID = $(this).attr('href');
+  var bttnID = $
+(this).attr('href');
   $(bttnID).toggleClass('active');
   $('body').addClass('hidden-overflow');
 });
-
 $('.overlay-close').on('click', function(){
   $(this).parents('.overlay').removeClass('active');
   $('body').removeClass('hidden-overflow');
+  remove_hash_from_url();
+  if($('.video-box').length > 0){
+    $('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+  }
 });
 
 $('.overlay').on('click', function(){
   $(this).removeClass('active');
   $('body').removeClass('hidden-overflow');
+  remove_hash_from_url();
+  if($('.video-box').length > 0){
+    $('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+  }
 });
 
 $('.inner-overlay-box').on('click', function(e){
