@@ -252,5 +252,57 @@ $(document).on('click', '#uploaded-photos a.remove', function(){
   fileUploaded.splice(removeID[1],1);
 });
 
+// Cookie
+
+function getRefID(){
+
+  var randomInteger;
+  function randomInteger() {
+    return Math.floor(Math.random() * (99999));
+  }
+
+  function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+
+  function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+
+    for(var i = 0; i < ca.length; i++) {
+
+      var c = ca[i];
+
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+
+      if(c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+
+    }
+    return "";
+  }
+
+  // add a cookie alive for 1 hour and assign it a random number
+
+  var now = new Date();
+  now.setTime(now.getTime() + 1 * 3600 * 1000);
+  document.cookie = "refid=" + randomInteger() + "; expires=" + now.toUTCString() + "; path=/";
+
+  // set reference_id with the cookie info
+
+  var Arefid = getCookie('refid');
+  var Aexpires = getCookie('expires');
+  var Apath = getCookie('path');
+
+}
+
+getRefID();
+
 // ** Document Ready Finished **
 });
