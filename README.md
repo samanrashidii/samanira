@@ -8,7 +8,7 @@
     <br />
     <br />
     <br />
-    <a href="http://www.samanrashidi.com/samanira"><strong>Read Full Documentation</strong></a>
+    <a href="http://www.samanira.com"><strong>Read Full Documentation</strong></a>
   </p>
 </p>
 
@@ -16,7 +16,7 @@
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? Please send us your <a href="mailto:samanira@samanrashidi.com"><strong>report or request</strong></a>.
+Have a bug or a feature request? Please send us your <a href="mailto:info@samanira.com"><strong>report or request</strong></a>.
 
 
 ## Documentation
@@ -36,12 +36,12 @@ You can find the full documentation [here](http://www.samanrashidi.com/samanira)
 - <http://www.samirasalimian.com>
 - <http://www.github.com/samirasaly>
 
-Follow us on : <http://www.instagram.com/samaniraa>
+Follow our personal blog on : <http://www.instagram.com/samaniraa>
 
 
 ## Copyright and license
 
-Code and documentation copyright 2016-2017 SamanirA.
+Code and documentation copyright 2016-2018 SamanirA.
 
 ## Did you like SamanirA?
 
