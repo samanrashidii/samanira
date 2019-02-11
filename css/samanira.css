@@ -1038,6 +1038,11 @@ a.close{
 ****** #CLASSES ******
 **********************/
 
+.mobile-scrollable{
+	overflow:hidden;
+	-webkit-overflow-scrolling:touch;
+}
+
 /* -- _Schema -- */
 
 .schema-item{
