@@ -21,7 +21,7 @@ Have a bug or a feature request? Please send us your <a href="mailto:info@samani
 
 ## Documentation
 
-You can find the full documentation [here](http://www.samanrashidi.com/samanira)
+You can find the full documentation [here](http://www.samanira.com)
 
 
 ## Creators
@@ -36,13 +36,13 @@ You can find the full documentation [here](http://www.samanrashidi.com/samanira)
 - <http://www.samirasalimian.com>
 - <http://www.github.com/samirasaly>
 
-Follow our personal blog on : <http://www.instagram.com/samaniraa>
+Follow our blog on : <http://www.instagram.com/samaniraa>
 
 
 ## Copyright and license
 
-Code and documentation copyright 2016-2018 SamanirA.
+Code and documentation copyright 2016-2019 SamanirA.
 
 ## Did you like SamanirA?
 
-Give us one star :)
+Give us one little star :)
