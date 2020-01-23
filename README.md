@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://www.samanrashidi.com/samanira">
+  <a href="http://samanira.samanrashidi.com">
     <img src="http://samanrashidi.com/images/samanira.png" width=200 height=138>
   </a>
 
@@ -8,7 +8,7 @@
     <br />
     <br />
     <br />
-    <a href="http://www.samanira.com"><strong>Read Full Documentation</strong></a>
+    <a href="http://samanira.samanrashidi.com"><strong>Read Full Documentation</strong></a>
   </p>
 </p>
 
@@ -16,12 +16,12 @@
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? Please send us your <a href="mailto:info@samanira.com"><strong>report or request</strong></a>.
+Have a bug or a feature request? Please send us your <a href="mailto:samanira@samanrashidi.com"><strong>report or request</strong></a>.
 
 
 ## Documentation
 
-You can find the full documentation [here](http://www.samanira.com)
+You can find the full documentation [here](http://samanira.samanrashidi.com)
 
 
 ## Creators
@@ -35,8 +35,6 @@ You can find the full documentation [here](http://www.samanira.com)
 
 - <http://www.samirasalimian.com>
 - <http://www.github.com/samirasaly>
-
-Follow our blog on : <http://www.instagram.com/samaniraa>
 
 
 ## Copyright and license
