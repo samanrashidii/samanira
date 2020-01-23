@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://samanira.samanrashidi.com">
-    <img src="http://samanrashidi.com/images/samanira.png" width=200 height=138>
+    <img src="http://www.samanrashidi.com/img/samanira.be1ce8db.png" width=200 height=138>
   </a>
 
   <p align="center">
