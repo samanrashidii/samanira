@@ -1,18 +1,14 @@
-<p align="center">
+<p>
   <a href="http://samanira.samanrashidi.com">
     <img src="http://www.samanrashidi.com/img/samanira.be1ce8db.png" width=200 height=138>
   </a>
-
-  <p align="center">
-    SamanirA is an easy HTML / CSS / JS framework for "Front-end Developers" who wants to quickly build a project from 0% to 100% without wasting time on defining css classes or some javascript functions.
-    <br />
-    <br />
-    <br />
-    <a href="http://samanira.samanrashidi.com"><strong>Read Full Documentation</strong></a>
-  </p>
 </p>
 
 <br>
+
+# Samanira - v2.7
+
+SamanirA is an easy HTML / CSS / JS framework for beginner "Front-end Developers" who wants to quickly build a project from 0% to 100% without wasting time on defining css classes or some javascript functions.
 
 ## Bugs and feature requests
 
@@ -23,24 +19,31 @@ Have a bug or a feature request? Please send us your <a href="mailto:samanira@sa
 
 You can find the full documentation [here](http://samanira.samanrashidi.com)
 
+## Built With
 
-## Creators
+* HTML 5
+* CSS 3
+* Javascript
+* jQuery
+
+## Authors
 
 **Saman Rashidi**
 
-- <http://www.samanrashidi.com>
-- <http://www.github.com/samanrashidii>
+- [Linkedin](https://www.linkedin.com/in/samanrashidii)
+- [Github](https://github.com/samanrashidii)
+- [Personal page](http://samanrashidi.com)
 
 **Samira Salimian**
 
-- <http://www.samirasalimian.com>
-- <http://www.github.com/samirasaly>
+- [Linkedin](https://www.linkedin.com/in/samira-salimian)
+- [Github](https://github.com/samirasaly)
+- [Instagram](http://samanrashidi.com/samirasaly)
 
+## License
 
-## Copyright and license
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Code and documentation copyright 2016-2019 SamanirA.
-
-## Did you like SamanirA?
+## Did you like Samanira?
 
 Give us one little star :)
