@@ -6,7 +6,7 @@
 
 # Samanira - v2.7
 
-SamanirA is an easy HTML / CSS / JS framework for beginner "Front-end Developers" who wants to quickly build a project from 0% to 100% without wasting time on defining css classes or some javascript functions.
+SamanirA is an easy frontend framework for beginner "Front-end Developers" who wants to quickly build a project from 0% to 100% without wasting time on defining css classes or some javascript functions.
 
 ## Bugs and feature requests
 
