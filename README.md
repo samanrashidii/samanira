@@ -30,7 +30,7 @@ You can find the full documentation [here](http://samanira.samanrashidi.com)
 
 - [Linkedin](https://www.linkedin.com/in/samanrashidii)
 - [Github](https://github.com/samanrashidii)
-- [Personal page](http://samanrashidi.com)
+- [Website](http://samanrashidi.com)
 
 **Samira Salimian**
 
