@@ -36,7 +36,7 @@ You can find the full documentation [here](http://samanira.samanrashidi.com)
 
 - [Linkedin](https://www.linkedin.com/in/samira-salimian)
 - [Github](https://github.com/samirasaly)
-- [Instagram](http://samanrashidi.com/samirasaly)
+- [Instagram](http://www.instagram.com/samirasaly)
 
 ## License
 
